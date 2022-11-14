@@ -1,0 +1,165 @@
+.header {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "MetropolisB";
+}
+.header .header__logo {
+  display: none;
+  position: absolute;
+  top: 3px;
+  left: 30px;
+  width: 249px;
+  height: 58px;
+  padding: 5px;
+}
+.header .header__logoMobile {
+  display: block;
+  text-align: center;
+}
+.header .top {
+  position: relative;
+  height: 70px;
+  width: 100%;
+  margin-top: 10px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #e1e2e8;
+}
+.header .top .top__row {
+  position: relative;
+  left: 28.5%;
+  width: 300px;
+  height: 50px;
+}
+.header .top .top__row .top__contact {
+  position: absolute;
+  top: 25px;
+  color: #000;
+  left: 0;
+  bottom: 0;
+  transition: color 0.3s;
+}
+.header .top .top__row .top__contact span {
+  top: 0;
+  font-size: 12px;
+}
+.header .top .top__row .top__contact:hover {
+  color: #9bcb3b;
+}
+.header .top .top__row .top__favourite {
+  position: absolute;
+  top: 25px;
+  color: #000;
+  left: 30%;
+  bottom: 0;
+  transition: color 0.3s;
+}
+.header .top .top__row .top__favourite span {
+  top: 0;
+  font-size: 12px;
+}
+.header .top .top__row .top__favourite:hover {
+  color: #9bcb3b;
+}
+.header .top .top__row .top__account {
+  position: absolute;
+  top: 25px;
+  color: #000;
+  left: 61%;
+  bottom: 0;
+  transition: color 0.3s;
+}
+.header .top .top__row .top__account span {
+  top: 0;
+  font-size: 12px;
+}
+.header .top .top__row .top__account:hover {
+  color: #9bcb3b;
+}
+.header .top .top__shoppingCart {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  height: 35px;
+  width: 190px;
+  border: 2px solid #e1e2e8;
+  color: #000;
+}
+.header .top .top__shoppingCart .shoppingCart__bg {
+  position: absolute;
+  right: 150.5px;
+  height: 35.9px;
+  width: 40px;
+  border-right: 2px solid #e1e2e8;
+}
+.header .top .top__shoppingCart .shoppingCart__bg .shoppingCart__cartIcon {
+  position: absolute;
+  display: inline-block;
+  top: 1px;
+  height: 43px;
+  padding: 4px 6px 0 6px;
+  font-size: 27px;
+}
+.header .top .top__shoppingCart span {
+  position: absolute;
+  left: 45px;
+  top: 3px;
+  padding: 4px 3px 0 8px;
+  font-size: 11px;
+}
+.header .top .top__shoppingCart span p {
+  position: absolute;
+  left: 25px;
+  top: 5px;
+}
+.header .top .top__shoppingCart .shoppingCart__arrowBg {
+  position: absolute;
+  top: -1px;
+  left: 150px;
+  width: 39px;
+  height: 36px;
+  border-left: 2px solid #e1e2e8;
+  border-bottom: 2px solid #e1e2e8;
+  background-color: #9bcb3b;
+}
+.header .top .top__shoppingCart .shoppingCart__arrowIcon {
+  display: inline-block;
+  position: absolute;
+  right: 1px;
+  top: 4px;
+  height: 41px;
+  color: #fff;
+  padding: 4px 6px 0 6px;
+  font-size: 20px;
+}
+.header a {
+  text-decoration: none;
+  color: #000;
+}
+.header .icon {
+  font-size: 17px;
+}
+.header .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  top: 70px;
+  width: 100%;
+  height: 50px;
+  margin: 0 5px;
+  text-transform: uppercase;
+  color: #000;
+  border-bottom: 2px solid #e1e2e8;
+}
+.header .nav .nav__item {
+  display: flex;
+  font-size: 14px;
+  transition: color 0.5s, scale 0.5s;
+  cursor: pointer;
+}
+.header .nav .nav__item:hover {
+  color: #9bcb3b;
+  scale: 1.1;
+}
+
+/*# sourceMappingURL=header.css.map */

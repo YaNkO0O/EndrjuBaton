@@ -1,0 +1,10 @@
+@mixin size {
+	position: absolute;
+	top: 25px;
+	color: #000;
+}
+@mixin centering {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

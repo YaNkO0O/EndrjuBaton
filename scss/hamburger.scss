@@ -1,0 +1,46 @@
+@use "./_mixins" as center;
+@use "./variables" as color;
+.hamburger__container {
+	max-width: 70%;
+}
+.hamburger {
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	bottom: 0;
+	left: -100px;
+	width: 80%;
+	height: 100%;
+	font-family: "MetropolisB";
+	background-color: #fff;
+	opacity: 0;
+	transition: 0.4s;
+
+	.hamburger__title {
+		@include center.centering;
+		width: 100%;
+		height: 7%;
+		text-transform: uppercase;
+		font-weight: bold;
+		border-bottom: color.$border;
+	}
+	a {
+		text-decoration: none;
+		color: #000;
+		li {
+			display: flex;
+			align-items: center;
+			text-transform: uppercase;
+			padding: 25px;
+			border-bottom: color.$border;
+		}
+	}
+	ul {
+		width: 50%;
+		margin-top: 50px;
+	}
+}
+.showMenu {
+	opacity: 1;
+	transform: translateX(100px);
+}

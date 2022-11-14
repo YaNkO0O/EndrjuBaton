@@ -1,0 +1,113 @@
+@media screen and (min-width: 200px) {
+	.top {
+		display: none;
+	}
+	.header {
+		height: 70px;
+		.nav {
+			display: none;
+		}
+	}
+}
+@media screen and (min-width: 430px) {
+	.header {
+		.header__logoMobile {
+			left: 20%;
+		}
+	}
+}
+@media screen and (min-width: 600px) {
+	.header {
+		.header__logoMobile {
+			left: 30%;
+		}
+	}
+}
+@media screen and (min-width: 768px) {
+	.mobileNav {
+		display: none;
+	}
+	.top {
+		display: flex;
+		.header__logoMobile {
+			display: none;
+		}
+	}
+	.header {
+		height: 140px;
+		.header__logo {
+			display: block;
+		}
+		.header__logoMobile {
+			display: none;
+		}
+		.nav {
+			display: flex;
+		}
+	}
+	.hamburger {
+		display: none;
+	}
+}
+@media screen and (min-width: 850px) {
+	.header {
+		.top {
+			.top__row {
+				left: 39%;
+			}
+		}
+	}
+}
+@media screen and (min-width: 992px) {
+	.header {
+		.top {
+			.top__row {
+				left: 46%;
+			}
+		}
+	}
+}
+@media screen and (min-width: 1150px) {
+	.header {
+		.top {
+			.top__row {
+				width: 400px;
+				left: 47%;
+				.top__contact{
+					span{
+						font-size: 14px;
+					}
+				}
+				.top__favourite{
+					span{
+						font-size: 14px;
+					}
+				}
+				.top__account{
+					left: 60%;
+					span{
+						font-size: 14px;
+					}
+				}
+			}
+		}
+	}
+}
+@media screen and (min-width: 1400px) {
+	.header {
+		.top {
+			.top__row {
+				left: 57%;
+			}
+		}
+	}
+}
+@media screen and (min-width: 1700px) {
+	.header {
+		.top {
+			.top__row {
+				left: 65%;
+			}
+		}
+	}
+}

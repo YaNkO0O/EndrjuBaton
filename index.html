@@ -8,6 +8,7 @@
     <title>Strona testowa</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./css/icons.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/homeSlider.css" />
     <link rel="stylesheet" href="./css/mobileNav.css" />
@@ -96,9 +97,33 @@
         </nav>
     </header>
     <main>
-        <section class="homeSlider container">
-            <div class="homeSlider__photo"><img src="./img/img_01.jpg" alt=""></div>
-        </section>
+        <div class="homeSlider container">
+            <div class="homeSlider__photo">
+                <div class="homeSlider__shadow"></div>
+                <img src="./img/img_01.jpg" style="width:100%">
+                <div class="homeSlider__text">
+                    <h2 class="homeSlider__heading">Poznaj SEDNA</h2>
+                    <p class="homeSlider__subheading">Schneider Electric</p>
+                    <p class="homeSlider__info">Sedna to osprzęt elektroinstalacyjny o wyrazistym kształcie oraz
+                        unikalnej formie</p>
+                        <button class="homeSlider__seeMore"></button>
+                </div>
+
+            </div>
+
+            <div class="homeSlider__photo">
+                <div class="homeSlider__shadow"></div>
+                <img src="./img/img_08.png" style="width:100%">
+                <div class="homeSlider__text">
+                    <h2 class="homeSlider__heading">Phillips HUE</h2>
+                    <p class="homeSlider__subheading">Oświetl swój dom</p>
+                    <p class="homeSlider__info">Wyobraź sobie, że jednym dotknięciem wyłączasz wszystkie światła</p>
+
+                </div>
+            </div>
+            <a class="homeSlider__prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+            <a class="homeSlider__next" onclick="plusSlides(1, 0)">&#10095;</a>
+        </div>
         <section class="banner container">
             <div class="banner__one">
                 <div class="banner__shadow"></div>
@@ -156,7 +181,7 @@
         </a>
     </nav>
 
-
+    <script src="./js/homeSlider.js"></script>
     <script src="./js/hamburger.js"></script>
 </body>
 

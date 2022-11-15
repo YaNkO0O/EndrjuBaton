@@ -1,4 +1,11 @@
 @media screen and (min-width: 200px) {
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner .banner__two {
+    margin: 5px 0;
+  }
   .top {
     display: none;
   }
@@ -20,6 +27,13 @@
   }
 }
 @media screen and (min-width: 768px) {
+  .banner {
+    display: flex;
+    flex-direction: row;
+  }
+  .banner .banner__two {
+    margin: 0 5px;
+  }
   .mobileNav {
     display: none;
   }

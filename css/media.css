@@ -6,9 +6,6 @@
   .banner .banner__two {
     margin: 5px 0;
   }
-  .banner .banner__btn {
-    display: none;
-  }
   .top {
     display: none;
   }
@@ -20,79 +17,31 @@
   }
 }
 @media screen and (min-width: 430px) {
-  main .banner .banner__one .banner__headline {
-    position: absolute;
-    top: 25%;
-    left: 8%;
-    font-size: 33px;
+  .homeSlider .homeSlider__photo .homeSlider__text {
+    width: 200px;
   }
-  main .banner .banner__one .banner__subheading {
-    position: absolute;
-    top: 38%;
-    left: 8%;
-    font-size: 33px;
+  .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__heading {
+    font-size: 17px;
   }
-  main .banner .banner__two .banner__headline {
-    position: absolute;
-    top: 25%;
-    left: 8%;
-    font-size: 33px;
+  .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__subheading {
+    font-size: 17px;
   }
-  main .banner .banner__two .banner__subheading {
-    position: absolute;
-    top: 38%;
-    left: 8%;
-    font-size: 33px;
-  }
-  main .banner .banner__three .banner__headline {
-    position: absolute;
-    top: 25%;
-    left: 8%;
-    font-size: 33px;
-  }
-  main .banner .banner__three .banner__subheading {
-    position: absolute;
-    top: 38%;
-    left: 8%;
-    font-size: 33px;
+  .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__info {
+    font-size: 11px;
   }
 }
 @media screen and (min-width: 600px) {
-  main .banner .banner__one .banner__headline {
-    position: absolute;
-    top: 25%;
-    left: 8%;
-    font-size: 41px;
+  .homeSlider .homeSlider__photo .homeSlider__text {
+    width: 300px;
   }
-  main .banner .banner__one .banner__subheading {
-    position: absolute;
-    top: 38%;
-    left: 8%;
-    font-size: 41px;
+  .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__heading {
+    font-size: 22px;
   }
-  main .banner .banner__two .banner__headline {
-    position: absolute;
-    top: 25%;
-    left: 8%;
-    font-size: 43px;
+  .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__subheading {
+    font-size: 22px;
   }
-  main .banner .banner__two .banner__subheading {
-    position: absolute;
-    top: 38%;
-    left: 8%;
-    font-size: 43px;
-  }
-  main .banner .banner__three .banner__headline {
-    position: absolute;
-    top: 25%;
-    left: 8%;
-    font-size: 43px;
-  }
-  main .banner .banner__three .banner__subheading {
-    position: absolute;
-    top: 38%;
-    left: 8%;
-    font-size: 43px;
+  .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__info {
+    font-size: 14px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -127,130 +76,49 @@
   .hamburger {
     display: none;
   }
-  main .banner .banner__one .banner__headline {
-    position: absolute;
-    top: 13%;
-    left: 4%;
-    font-size: 19px;
+  .homeSlider .homeSlider__photo .homeSlider__text {
+    top: 5%;
+    width: 300px;
   }
-  main .banner .banner__one .banner__subheading {
-    position: absolute;
-    top: 28%;
-    left: 4%;
-    font-size: 19px;
+  .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__heading {
+    font-size: 30px;
   }
-  main .banner .banner__two .banner__headline {
-    position: absolute;
-    top: 13%;
-    left: 4%;
-    font-size: 19px;
+  .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__subheading {
+    font-size: 30px;
   }
-  main .banner .banner__two .banner__subheading {
-    position: absolute;
-    top: 28%;
-    left: 4%;
-    font-size: 20px;
-  }
-  main .banner .banner__three .banner__headline {
-    position: absolute;
-    top: 13%;
-    left: 4%;
-    font-size: 19px;
-  }
-  main .banner .banner__three .banner__subheading {
-    position: absolute;
-    top: 28%;
-    left: 4%;
-    font-size: 20px;
-  }
-  main .banner .banner__btn {
-    position: absolute;
-    display: block;
-    top: 68%;
-    width: 50%;
-    height: 50px;
+  .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__info {
+    font-size: 16px;
   }
 }
 @media screen and (min-width: 850px) {
   .header .top .top__row {
     left: 39%;
   }
-  main .banner .banner__one .banner__headline {
-    position: absolute;
-    top: 25%;
-    left: 8%;
-    font-size: 19px;
-  }
-  main .banner .banner__one .banner__subheading {
-    position: absolute;
-    top: 38%;
-    left: 8%;
-    font-size: 20px;
-  }
-  main .banner .banner__two .banner__headline {
-    position: absolute;
-    top: 25%;
-    left: 8%;
-    font-size: 20px;
-  }
-  main .banner .banner__two .banner__subheading {
-    position: absolute;
-    top: 40%;
-    left: 8%;
-    font-size: 20px;
-  }
-  main .banner .banner__three .banner__headline {
-    position: absolute;
-    top: 25%;
-    left: 8%;
-    font-size: 20px;
-  }
-  main .banner .banner__three .banner__subheading {
-    position: absolute;
-    top: 40%;
-    left: 8%;
-    font-size: 20px;
-  }
 }
 @media screen and (min-width: 992px) {
   .header .top .top__row {
     left: 46%;
   }
-  main .banner .banner__one .banner__headline {
-    position: absolute;
-    top: 25%;
-    left: 8%;
-    font-size: 23px;
+  .homeSlider .homeSlider__photo .homeSlider__text {
+    top: 10%;
+    width: 300px;
   }
-  main .banner .banner__one .banner__subheading {
-    position: absolute;
-    top: 38%;
-    left: 8%;
-    font-size: 23px;
+  .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__heading {
+    font-size: 22px;
   }
-  main .banner .banner__two .banner__headline {
-    position: absolute;
-    top: 25%;
-    left: 8%;
-    font-size: 23px;
+  .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__subheading {
+    font-size: 22px;
   }
-  main .banner .banner__two .banner__subheading {
-    position: absolute;
-    top: 40%;
-    left: 8%;
-    font-size: 23px;
+  .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__info {
+    font-size: 18px;
   }
-  main .banner .banner__three .banner__headline {
-    position: absolute;
-    top: 25%;
-    left: 8%;
-    font-size: 23px;
+  .homeSlider .homeSlider__next {
+    font-size: 18px;
+    width: 40px;
   }
-  main .banner .banner__three .banner__subheading {
-    position: absolute;
-    top: 40%;
-    left: 8%;
-    font-size: 23px;
+  .homeSlider .homeSlider__prev {
+    font-size: 18px;
+    width: 40px;
   }
 }
 @media screen and (min-width: 1150px) {
@@ -270,130 +138,51 @@
   .header .top .top__row .top__account span {
     font-size: 14px;
   }
-  main .banner .banner__one .banner__headline {
-    position: absolute;
-    top: 25%;
-    left: 8%;
-    font-size: 27px;
-  }
-  main .banner .banner__one .banner__subheading {
-    position: absolute;
-    top: 38%;
-    left: 8%;
-    font-size: 27px;
-  }
-  main .banner .banner__two .banner__headline {
-    position: absolute;
-    top: 25%;
-    left: 8%;
-    font-size: 27px;
-  }
-  main .banner .banner__two .banner__subheading {
-    position: absolute;
-    top: 40%;
-    left: 8%;
-    font-size: 27px;
-  }
-  main .banner .banner__three .banner__headline {
-    position: absolute;
-    top: 25%;
-    left: 8%;
-    font-size: 27px;
-  }
-  main .banner .banner__three .banner__subheading {
-    position: absolute;
-    top: 40%;
-    left: 8%;
-    font-size: 27px;
-  }
 }
 @media screen and (min-width: 1400px) {
   .header .top .top__row {
     left: 57%;
   }
-  main .banner .banner__one .banner__headline {
-    position: absolute;
-    top: 25%;
-    left: 8%;
-    font-size: 33px;
+  .homeSlider .homeSlider__photo .homeSlider__text {
+    top: 10%;
+    width: 400px;
   }
-  main .banner .banner__one .banner__subheading {
-    position: absolute;
-    top: 38%;
-    left: 8%;
-    font-size: 33px;
+  .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__heading {
+    font-size: 40px;
   }
-  main .banner .banner__two .banner__headline {
-    position: absolute;
-    top: 25%;
-    left: 8%;
-    font-size: 33px;
+  .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__subheading {
+    font-size: 40px;
   }
-  main .banner .banner__two .banner__subheading {
-    position: absolute;
-    top: 40%;
-    left: 8%;
-    font-size: 33px;
+  .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__info {
+    font-size: 20px;
   }
-  main .banner .banner__three .banner__headline {
-    position: absolute;
-    top: 25%;
-    left: 8%;
-    font-size: 33px;
+  .homeSlider .homeSlider__next {
+    font-size: 24px;
+    height: 70px;
+    width: 60px;
   }
-  main .banner .banner__three .banner__subheading {
-    position: absolute;
-    top: 40%;
-    left: 8%;
-    font-size: 33px;
-  }
-  main .banner .banner__btn {
-    position: absolute;
-    display: block;
-    top: 68%;
-    width: 50%;
-    height: 60px;
+  .homeSlider .homeSlider__prev {
+    font-size: 24px;
+    height: 70px;
+    width: 60px;
   }
 }
 @media screen and (min-width: 1700px) {
   .header .top .top__row {
     left: 65%;
   }
-  main .banner .banner__one .banner__headline {
-    position: absolute;
-    top: 25%;
-    left: 8%;
-    font-size: 44px;
+  .homeSlider .homeSlider__photo .homeSlider__text {
+    top: 10%;
+    width: 470px;
   }
-  main .banner .banner__one .banner__subheading {
-    position: absolute;
-    top: 38%;
-    left: 8%;
-    font-size: 44px;
+  .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__heading {
+    font-size: 50px;
   }
-  main .banner .banner__two .banner__headline {
-    position: absolute;
-    top: 25%;
-    left: 8%;
-    font-size: 44px;
+  .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__subheading {
+    font-size: 50px;
   }
-  main .banner .banner__two .banner__subheading {
-    position: absolute;
-    top: 40%;
-    left: 8%;
-    font-size: 44px;
-  }
-  main .banner .banner__three .banner__headline {
-    position: absolute;
-    top: 25%;
-    left: 8%;
-    font-size: 44px;
-  }
-  main .banner .banner__three .banner__subheading {
-    position: absolute;
-    top: 40%;
-    left: 8%;
-    font-size: 44px;
+  .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__info {
+    font-size: 26px;
   }
 }
 

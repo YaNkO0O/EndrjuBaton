@@ -6,15 +6,14 @@
   position: fixed;
   display: flex;
   flex-direction: column;
-  top: 0;
-  left: -1000px;
+  bottom: 0;
+  left: -100px;
   width: 80%;
-  height: 95%;
+  height: 100%;
   font-family: "MetropolisB";
   background-color: #fff;
   opacity: 0;
   transition: 0.4s;
-  z-index: 100;
 }
 .hamburger .hamburger__title {
   display: flex;
@@ -38,13 +37,13 @@
   border-bottom: 1px solid #c4c5cc;
 }
 .hamburger ul {
-  width: 70%;
+  width: 50%;
   margin-top: 50px;
 }
 
 .showMenu {
   opacity: 1;
-  transform: translateX(1000px);
+  transform: translateX(100px);
 }
 
 /*# sourceMappingURL=hamburger.css.map */

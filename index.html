@@ -7,6 +7,7 @@
     <meta name="viewport" content="width-device-width, initial-scale=1.0" />
     <title>Strona testowa</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/icons.css" />
     <link rel="stylesheet" href="./css/fonts.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/homeSlider.css" />
@@ -15,6 +16,9 @@
     <link rel="stylesheet" href="./css/media.css" />
     <link rel="stylesheet" href="./css/footer.css"/>
     <link rel="stylesheet" href="./css/icons.css"/>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/banners.css">
+    <link rel="stylesheet" href="./css/banner.css">
 </head>
 
 <body>
@@ -49,7 +53,8 @@
             <a href="javascript:void(0)">
                 <div class="top__shoppingCart shoppingCart">
                     <div class="shoppingCart__bg">
-                        <div class="shoppingCart__cartIcon icon icon-cart"></div>
+                        <div class="shoppingCart__cartIcon icon "><i class="icon-cart"></i></div>
+
                     </div>
                     <span>twój koszyk
                         <p>3456,00 zł</p>
@@ -57,7 +62,8 @@
                     <div class="shoppingCart__arrowBg">
 
                     </div>
-                    <div class="shoppingCart__arrowIcon icon-arrow_right"></div>
+                    <div class="shoppingCart__arrowIcon"><i class="icon-arrow_right"></i>
+                    </div>
                 </div>
             </a>
         </div>
@@ -97,9 +103,81 @@
         </nav>
     </header>
     <main>
-        <section class="homeSlider container">
-            <div class="homeSlider__photo"><img src="./img/img_01.jpg" alt=""></div>
+        <div class="homeSlider container">
+            <div class="homeSlider__photo">
+                <div class="homeSlider__shadow"></div>
+                <img src="./img/img_01.jpg" style="width:100%">
+                <div class="homeSlider__text">
+                    <span class="homeSlider__heading">Poznaj SEDNA</span>
+                    <span class="homeSlider__subheading">Schneider Electric</span>
+                    <span class="homeSlider__info">Sedna to osprzęt elektroinstalacyjny o wyrazistym kształcie oraz
+                        unikalnej formie</span>
+                    <button class="homeSlider__seeMore">zobacz więcej</button>
+                </div>
+
+            </div>
+
+            <div class="homeSlider__photo">
+                <div class="homeSlider__shadow"></div>
+                <img src="./img/img_08.png" style="width:100%">
+                <div class="homeSlider__text">
+                    <span class="homeSlider__heading">Phillips HUE</span>
+                    <span class="homeSlider__subheading">Oświetl swój dom</span>
+                    <span class="homeSlider__info">Wyobraź sobie, że jednym dotknięciem wyłączasz wszystkie światła</span>
+                    <button class="homeSlider__seeMore">zobacz więcej</button>
+                </div>
+            </div>
+            <a class="homeSlider__prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+            <a class="homeSlider__next" onclick="plusSlides(1, 0)">&#10095;</a>
+        </div>
+        <section class="banner container">
+            <div class="banner__one">
+                <div class="banner__shadow"></div>
+                <div class="banner__img">
+                    <img src="./img/img_02.jpg" alt="">
+                </div>
+                <p class="banner__headline">Pomoc eksperta</p>
+                <p class="banner__subheading">Doradzamy</p>
+                <a href="javascript:void(0)"><button class="banner__btn">ZOBACZ WIĘCEJ</button></a>
+            </div>
+            <div class="banner__two">
+                <div class="banner__shadow"></div>
+                <div class="banner__img">
+                    <img src="./img/img_03.jpg" alt="">
+                </div>
+                <p class="banner__headline">Szukaj wygodnie</p>
+                <p class="banner__subheading">Elhurt Plus</p>
+                <a href="javascript:void(0)"><button class="banner__btn">ZOBACZ WIĘCEJ</button></a>
+            </div>
+            <div class="banner__three">
+                <div class="banner__img">
+                    <img src="./img/img_05.jpg" alt="">
+                </div>
+                <p class="banner__headline">Seria Unica</p>
+                <p class="banner__subheading">Wyjątkowy wzór</p>
+                <div class="banner__shadow"></div>
+                <a href="javascript:void(0)"><button class="banner__btn">ZOBACZ WIĘCEJ</button></a>
+            </div>
+
         </section>
+
+    
+    
+    <!-- <section class="banner__section">
+        <div class="banner__img">
+            
+
+
+        </div>
+        <!-- <img src=".//img/img_07.jpg" class="banner__photo"> -->
+
+
+
+
+<!-- 
+</section> --> -->
+
+
     </main>
     <section class="hamburger">
         <div class="hamburger__title">elhurt</div>
@@ -136,9 +214,12 @@
         </a>
     </nav>
 
-
+    <script src="./js/homeSlider.js"></script>
     <script src="./js/hamburger.js"></script>
 
+    
+    
+    
     <footer class="footer">
         <div class="footer__background">
             

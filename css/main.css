@@ -44,7 +44,7 @@ main .banner .banner__headline {
   display: flex;
   z-index: 40;
   height: 44px;
-  font-size: 200%;
+  font-size: 44px;
   color: white;
   font-family: "MetropolisB";
 }

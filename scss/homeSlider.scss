@@ -1,3 +1,4 @@
+@use "./variables" as color;
 .homeSlider {
 	display: flex;
 	position: relative;
@@ -5,7 +6,7 @@
 	.homeSlider__photo {
 		position: relative;
 		display: none;
-		.homeSlider__shadow{
+		.homeSlider__shadow {
 			position: absolute;
 			width: 100%;
 			height: 100%;
@@ -14,23 +15,48 @@
 		.homeSlider__text {
 			// background-color: red;
 			position: absolute;
-			width: 120px;
-			height: 60px;
+			width: 125px;
+			height: 100%;
 			top: 0;
 			left: 10%;
 			color: #fff;
 			.homeSlider__heading {
+				display: inline-block;
 				font-size: 10px;
 				font-family: "MetropolisB";
-				z-index: 100;
+				// z-index: 100;
 			}
-			.homeSlider__subheading{
+			.homeSlider__subheading {
+				display: inline-block;
+				margin-top: 3%;
 				font-size: 10px;
 				font-family: "MetropolisL";
 			}
-			.homeSlider__info{
+			.homeSlider__info {
+				display: inline-block;
+				margin-top: 2%;
 				font-size: 7px;
 				font-family: "Metropolis";
+			}
+			.homeSlider__seeMore {
+				position: absolute;
+				top: 65px;
+				left: 0;
+				height: 10px;
+				width: 60%;
+				font-size: 5px;
+				font-family: "MetropolisB";
+				text-align: center;
+				text-transform: uppercase;
+				color: #fff;
+				border: color.$border;
+				background-color: transparent;
+				transition: background-color 0.4s, border 0.4s;
+				cursor: pointer;
+			}
+			.homeSlider__seeMore:hover {
+				background-color: color.$button;
+				border: color.$button;
 			}
 		}
 		img {
@@ -46,7 +72,7 @@
 		position: absolute;
 		width: 20px;
 		height: 40px;
-		color: white;	
+		color: white;
 		font-weight: bold;
 		font-size: 10px;
 		transition: 0.6s ease;

@@ -1,0 +1,38 @@
+.productList{
+    display: flex;
+
+.bulb__discount{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.productList__btn{
+    width: 318px;
+    height: 55px;
+    background-color: rgba($color: #fff, $alpha: 0);
+		color: #fff;
+		border: 1px solid white;
+		font-family: "MetropolisB";
+		font-size: 14px;
+		transition: 0.5s;
+		text-decoration: none;
+		cursor: pointer;
+}
+.productList__btn:hover {
+    background-color: #f74137;
+    border: none;
+}
+}

@@ -51,7 +51,8 @@
             <a href="javascript:void(0)">
                 <div class="top__shoppingCart shoppingCart">
                     <div class="shoppingCart__bg">
-                        <div class="shoppingCart__cartIcon icon icon-cart"></div>
+                        <div class="shoppingCart__cartIcon icon "><i class="icon-cart"></i></div>
+
                     </div>
                     <span>twój koszyk
                         <p>3456,00 zł</p>
@@ -59,7 +60,8 @@
                     <div class="shoppingCart__arrowBg">
 
                     </div>
-                    <div class="shoppingCart__arrowIcon icon-arrow_right"></div>
+                    <div class="shoppingCart__arrowIcon"><i class="icon-arrow_right"></i>
+                    </div>
                 </div>
             </a>
         </div>
@@ -99,9 +101,33 @@
         </nav>
     </header>
     <main>
-        <section class="homeSlider container">
-            <div class="homeSlider__photo"><img src="./img/img_01.jpg" alt=""></div>
-        </section>
+        <div class="homeSlider container">
+            <div class="homeSlider__photo">
+                <div class="homeSlider__shadow"></div>
+                <img src="./img/img_01.jpg" style="width:100%">
+                <div class="homeSlider__text">
+                    <span class="homeSlider__heading">Poznaj SEDNA</span>
+                    <span class="homeSlider__subheading">Schneider Electric</span>
+                    <span class="homeSlider__info">Sedna to osprzęt elektroinstalacyjny o wyrazistym kształcie oraz
+                        unikalnej formie</span>
+                    <button class="homeSlider__seeMore">zobacz więcej</button>
+                </div>
+
+            </div>
+
+            <div class="homeSlider__photo">
+                <div class="homeSlider__shadow"></div>
+                <img src="./img/img_08.png" style="width:100%">
+                <div class="homeSlider__text">
+                    <span class="homeSlider__heading">Phillips HUE</span>
+                    <span class="homeSlider__subheading">Oświetl swój dom</span>
+                    <span class="homeSlider__info">Wyobraź sobie, że jednym dotknięciem wyłączasz wszystkie światła</span>
+                    <button class="homeSlider__seeMore">zobacz więcej</button>
+                </div>
+            </div>
+            <a class="homeSlider__prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+            <a class="homeSlider__next" onclick="plusSlides(1, 0)">&#10095;</a>
+        </div>
         <section class="banner container">
             <div class="banner__one">
                 <div class="banner__shadow"></div>
@@ -206,7 +232,7 @@
         </a>
     </nav>
 
-
+    <script src="./js/homeSlider.js"></script>
     <script src="./js/hamburger.js"></script>
 </body>
 

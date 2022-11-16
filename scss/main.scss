@@ -1,6 +1,62 @@
 main {
 	width: 100%;
 	height: 100%;
-	background-color: red;
+	background-color: #F2F3F4;
+	.banner {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		height: 100%;
+		.banner__one {
+			position: relative;
+			display: flex;
+			background-repeat: no-repeat;
+			background-position: center;
+            img{
+                width: 100%;
+                filter: brightness(70%);
+            }
+		}
+		.banner__two {
+            position: relative;
+			display: flex;
+			background-repeat: no-repeat;
+            img{
+                width: 100%;
+                filter: brightness(70%);
+            }
+		}
+		.banner__three {
+            position: relative;
+			display: flex;
+			background-repeat: no-repeat;
+            img{
+                width: 100%;
+                filter: brightness(70%);
+            }
+		}
+		.banner__headline {
+            position: absolute;
+            top: 18%;
+            left: 3%;
+			display: flex;
+			z-index: 40;
+			height: 44px;
+            font-size: 44px;
+            color: white;
+            font-family:'MetropolisB' ;
+		}
+		.banner__subheading {
+			position: absolute;
+			display: flex;
+            top: 40%;
+            left: 8%;
+			z-index: 40;
+            color: white;
+            font-size: 44px;
+            font-family:'MetropolisL' ;
+		}
+        
+	}
     
 }

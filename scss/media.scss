@@ -2,6 +2,9 @@
 	.footer{
 		display: none;
 	}
+	.footerMobile{
+		display: flex;
+	}
 	.banner {
 		display: flex;
 		flex-direction: column;
@@ -12,7 +15,6 @@
 			display: none;
 		}
 	}
-
 	.top {
 		display: none;
 	}
@@ -167,7 +169,13 @@
 }
 @media screen and (min-width: 768px) {
 	.footer{
-		display: block;
+		display: inline-flex;
+	}
+	.footerMobile{
+		display: none;
+		.footerMobile__title{
+			display: none;
+		}
 	}
 	.banner {
 		display: flex;

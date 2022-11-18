@@ -1,5 +1,6 @@
 @mixin size {
 	position: absolute;
+	display: inline-block;
 	top: 25px;
 	color: #000;
 }

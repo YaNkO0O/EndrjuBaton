@@ -1,6 +1,8 @@
 .header {
   position: relative;
+  max-width: 1920px;
   width: 100%;
+  height: 140px;
   margin: 0 auto;
   font-family: "MetropolisB";
 }
@@ -23,16 +25,17 @@
   width: 100%;
   margin-top: 10px;
   text-transform: uppercase;
-  border-bottom: 2px solid #e1e2e8;
+  border-bottom: 1px solid #E1E2E8;
 }
 .header .top .top__row {
   position: relative;
-  left: 28.5%;
+  left: 34%;
   width: 300px;
   height: 50px;
 }
 .header .top .top__row .top__contact {
   position: absolute;
+  display: inline-block;
   top: 25px;
   color: #000;
   left: 0;
@@ -48,6 +51,7 @@
 }
 .header .top .top__row .top__favourite {
   position: absolute;
+  display: inline-block;
   top: 25px;
   color: #000;
   left: 30%;
@@ -63,6 +67,7 @@
 }
 .header .top .top__row .top__account {
   position: absolute;
+  display: inline-block;
   top: 25px;
   color: #000;
   left: 61%;
@@ -78,58 +83,71 @@
 }
 .header .top .top__shoppingCart {
   position: absolute;
-  top: 10px;
+  top: 7px;
   right: 0;
-  height: 35px;
-  width: 190px;
-  border: 2px solid #e1e2e8;
+  height: 45px;
+  width: 255px;
+  border: 1px solid #e1e2e8;
   color: #000;
 }
 .header .top .top__shoppingCart .shoppingCart__bg {
   position: absolute;
-  top: -1px;
-  right: 150.5px;
-  height: 33px;
-  width: 40px;
-  border-right: 2px solid #e1e2e8;
+  top: 3.5px;
+  left: 0;
+  height: 35px;
+  width: 60px;
+  border-right: 1px solid #e1e2e8;
 }
 .header .top .top__shoppingCart .shoppingCart__bg .shoppingCart__cartIcon {
   position: absolute;
   display: inline-block;
-  top: 0px;
-  height: 43px;
-  padding: 4px 6px 0 6px;
-  font-size: 27px;
+  top: 3px;
+  left: 12px;
+  height: 55px;
+  font-size: 30px;
+}
+.header .top .top__shoppingCart .shoppingCart__bg .shoppingCart__cartIcon .shoppingCart__amountBox {
+  position: absolute;
+  top: 3px;
+  left: 20px;
+  width: 22px;
+  height: 12px;
+  border-radius: 3px;
+  padding: 2px;
+  background-color: #9BCB3B;
+}
+.header .top .top__shoppingCart .shoppingCart__bg .shoppingCart__cartIcon .shoppingCart__amountBox .amountBox__count {
+  position: absolute;
+  left: 3.7px;
+  bottom: -6px;
+  font-family: "MetropolisB";
+  font-size: 8px;
+  color: #fff;
 }
 .header .top .top__shoppingCart span {
   position: absolute;
-  left: 45px;
-  top: 3px;
-  padding: 4px 3px 0 8px;
-  font-size: 11px;
+  left: 80px;
+  top: 10px;
+  font-size: 14px;
 }
 .header .top .top__shoppingCart span p {
+  font-family: "Metropolis";
   position: absolute;
-  left: 25px;
-  top: 5px;
+  top: 0;
 }
 .header .top .top__shoppingCart .shoppingCart__arrowBg {
   position: absolute;
   top: -1px;
-  left: 150px;
-  width: 39px;
-  height: 34px;
-  border-bottom: 2px solid #e1e2e8;
+  right: 0;
+  width: 35px;
+  height: 45px;
   background-color: #9bcb3b;
 }
 .header .top .top__shoppingCart .shoppingCart__arrowIcon {
-  display: inline-block;
   position: absolute;
-  left: 155px;
-  top: 2px;
-  height: 41px;
+  right: 6px;
+  top: 13px;
   color: #fff;
-  padding: 4px 6px 0 6px;
   font-size: 20px;
 }
 .header a {
@@ -137,19 +155,24 @@
   color: #000;
 }
 .header .icon {
-  font-size: 19px;
+  position: absolute;
+  bottom: 5px;
+  left: -25px;
+  font-size: 22px;
+  display: inline-block;
 }
 .header .nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  text-align: center;
   top: 70px;
   width: 100%;
   height: 50px;
   margin: 0 5px;
   text-transform: uppercase;
   color: #000;
-  border-bottom: 2px solid #e1e2e8;
+  border-bottom: 1px solid #E1E2E8;
 }
 .header .nav .nav__item {
   display: flex;
@@ -159,7 +182,7 @@
 }
 .header .nav .nav__item:hover {
   color: #9bcb3b;
-  scale: 1.1;
+  scale: 1.08;
 }
 
 /*# sourceMappingURL=header.css.map */

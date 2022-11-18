@@ -24,7 +24,7 @@
   height: 7%;
   text-transform: uppercase;
   font-weight: bold;
-  border-bottom: 1px solid #c4c5cc;
+  border-bottom: 1px solid #E1E2E8;
 }
 .hamburger a {
   text-decoration: none;
@@ -35,7 +35,7 @@
   align-items: center;
   text-transform: uppercase;
   padding: 25px;
-  border-bottom: 1px solid #c4c5cc;
+  border-bottom: 1px solid #E1E2E8;
 }
 .hamburger ul {
   width: 70%;

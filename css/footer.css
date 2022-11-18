@@ -34,7 +34,7 @@
 }
 
 .footer__list {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.2);
   padding: 0;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .footer__listSecond {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.2);
   padding: 0;
 }
 
@@ -76,7 +76,7 @@
 }
 
 .footer__listThird {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.2);
   padding: 0;
 }
 
@@ -98,7 +98,7 @@
 }
 
 .footer__listFourth {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.2);
   padding: 0;
 }
 

@@ -20,13 +20,13 @@
   }
 }
 @media screen and (min-width: 430px) {
-  main .banner .banner__one .banner__headline {
+  main .banner .banner__ .banner__headline {
     position: absolute;
     top: 25%;
     left: 8%;
     font-size: 33px;
   }
-  main .banner .banner__one .banner__subheading {
+  main .banner .banner__ .banner__subheading {
     position: absolute;
     top: 38%;
     left: 8%;

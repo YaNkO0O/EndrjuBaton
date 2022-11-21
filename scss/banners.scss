@@ -6,6 +6,27 @@
 
 	
 	.banners{
+	margin-top: 20px;
+	.banner__one {
+		position: relative;
+		display: flex;
+		background-repeat: no-repeat;
+		background-position: center;
+		img {
+			width: 100%;
+			filter: brightness(70%);
+		}
+	}
+	.banner__two {
+		position: relative;
+		display: flex;
+		background-repeat: no-repeat;
+		img {
+			width: 100%;
+			filter: brightness(70%);
+		}
+	}
+	.banner__three {
 		position: relative;
 		display: flex;
 		background-repeat: no-repeat;
@@ -59,5 +80,6 @@
 	}
 	.banner__img img:hover {
 		transform: scale(1.1);
+	}
 	}
 }

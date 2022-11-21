@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA -Compatible" content="IE- edge" />
     <meta name="viewport" content="width-device-width, initial-scale=1.0" />
-    <title>Strona testowa</title>
+    <title>ELHURT</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/icons.css" />
     <link rel="stylesheet" href="./css/fonts.css" />
@@ -14,13 +14,17 @@
     <link rel="stylesheet" href="./css/mobileNav.css" />
     <link rel="stylesheet" href="./css/hamburger.css" />
     <link rel="stylesheet" href="./css/media.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/icons.css" />
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/banners.css">
     <link rel="stylesheet" href="./css/productList.css">
+    <link rel="stylesheet" href="./css/footerMobile.css">
+    <link rel="stylesheet" href="./css/whyUs.css">
 </head>
 
 <body>
-    <header class="header container">
+    <header class="header">
         <div class="header__logo">
             <img src="./img/logo.png" alt="Elhurt PLUS">
         </div>
@@ -44,14 +48,18 @@
                 <a href="javascript:void(0)">
                     <div class="top__account account">
                         <i class="account__icon icon icon-user"></i>
-                        <span>moje konto</span>
+                        <span>konto</span>
                     </div>
                 </a>
             </div>
             <a href="javascript:void(0)">
                 <div class="top__shoppingCart shoppingCart">
                     <div class="shoppingCart__bg">
-                        <div class="shoppingCart__cartIcon icon "><i class="icon-cart"></i></div>
+                        <div class="shoppingCart__cartIcon icon "><i class="icon-cart">
+                                <div class="shoppingCart__amountBox amountBox">
+                                    <p class="amountBox__count">342</p>
+                                </div>
+                            </i></div>
 
                     </div>
                     <span>twój koszyk
@@ -99,6 +107,40 @@
             </a>
 
         </nav>
+        <nav class="mobileNav">
+            <a href="javascript:void(0)">
+                <div class="mobileNav__item mobileMenu"><i class="icon-grid"></i></div>
+            </a>
+            <a href="javascript:void(0)">
+                <div class="mobileNav__item"><i class="icon-phone"></i></div>
+            </a>
+            <a href="javascript:void(0)">
+                <div class="mobileNav__item"><i class="icon-star"></i></div>
+            </a>
+            <a href="javascript:void(0)">
+                <div class="mobileNav__item"><i class="icon-user"></i></div>
+            </a>
+            <a href="javascript:void(0)">
+                <div class="mobileNav__item"><i class="icon-cart"></i></div>
+            </a>
+        </nav>
+        <section class="hamburger">
+            <div class="hamburger__title">elhurt</div>
+            <ul>
+                <a href="javascript:void(0)">
+                    <li>Kontakt</li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li>Ulubione</li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li>Moje konto</li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li>Koszyk</li>
+                </a>
+            </ul>
+        </section>
     </header>
     <main>
         <div class="homeSlider container">
@@ -157,7 +199,6 @@
                 <div class="banner__shadow"></div>
                 <a href="javascript:void(0)"><button class="banner__btn">ZOBACZ WIĘCEJ</button></a>
             </div>
-
         </section>
         <section class="productList">
             <div class="productList__headline">
@@ -262,7 +303,171 @@
             <div class="mobileNav__item"><i class="icon-cart"></i></div>
         </a>
     </nav>
+        <!--<section class="banner__section">
+            <div class="banner__img">
+            </div>
+            <img src=".//img/img_07.jpg" class="banner__photo">
+        </section>
+         <div class="banner__whyUs">
+        <img src="./img/img_07.jpg" class="banner__photo">
+        <div class="banner__header">
+            <p>Sprawdź dlaczego my</p>
+        </div>
+        <div class="banner__desc">
+            <p class="banner__text">Początki działalności to rok 2002r i otwarcie hurtowni elektrycznej, 
+                oferującej podstawowe produkty do instalacji <br> elektrycznych 
+                jak i również materiały używane w przemyśle wydobywczym. 
+                Firma dostarczała produkty trudno dostępne <br> do kopalń, zakładów przemysłowych.
+            </p>
+        </div>
+    </div> -->
 
+    </main>
+    <footer class="footer">
+        <div class="footer__background">
+            <div class="footer__First">
+                <div class="footer__border"></div>
+                <ul class="footer__list footer__title list">INFORMACJE</ul>
+                <div class="footer__item">
+                    <li class="list__item">Informacje o sklepie</li>
+                    <li class="list__item">Porady</li>
+                    <li class="list__item">Blog</li>
+                    <li class="list__item">Galeria inspiracji</li>
+                    <li class="list__item">Kontakt</li>
+                    <li class="list__item">Informacje o sklepie</li>
+                </div>
+            </div>
+            <div class="footer__Second">
+                <div class="footer__border"></div>
+                <ul class="footer__listSecond footer__title list">INFORMACJE</ul>
+                <div class="footer__itemSecond">
+                    <li class="list__itemSecond">Czas realizacji</li>
+                    <li class="list__itemSecond">Koszty przesyłki</li>
+                    <li class="list__itemSecond">Zamów próbkę</li>
+                    <li class="list__itemSecond">Szycie na wymiar</li>
+                    <li class="list__itemSecond">Czas realizacji</li>
+                    <li class="list__itemSecond">Koszty przesyłki</li>
+                </div>
+            </div>
+            <div class="footer__Third">
+                <div class="footer__border"></div>
+                <ul class="footer__listThird footer__title list">MOJE KONTO</ul>
+                <li class="list__itemThird">Logowanie</li>
+                <li class="list__itemThird">Rejestracja</li>
+                <li class="list__itemThird">Zamówienia</li>
+                <li class="list__itemThird">Ustawienia konta</li>
+                <li class="list__itemThird">Zmiana hasła</li>
+                <li class="list__itemThird">Schowek</li>
+            </div>
+            <div class="footer__Fourth">
+                <div class="footer__border"></div>
+                <ul class="footer__listFourth footer__title list">INFORMACJE</ul>
+                <li class="list__itemFourth">Informacje o sklepie</li>
+                <li class="list__itemFourth">Porady</li>
+                <li class="list__itemFourth">Blog</li>
+                <li class="list__itemFourth">Galeria inspiracji</li>
+                <li class="list__itemFourth">Kontakt</li>
+                <li class="list__itemFourth">Informacje o sklepie</li>
+            </div>
+        </div>
+    </footer>
+    <footer class="footerMobile">
+        <div class="footerMobile__title container">
+            <p>informacje</p>
+            <ul class="footerMobile__list1 mobileList">
+                <a href="javascript:void(0)">
+                    <li class="mobileList__item">Informacje o sklepie</li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li class="mobileList__item">Porady</li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li class="mobileList__item">Blog</li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li class="mobileList__item">Galeria inspiracji</li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li class="mobileList__item">Kontakt</li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li class="mobileList__item">Informacje o sklepie</li>
+                </a>
+            </ul>
+        </div>
+        <div class="footerMobile__title container">
+            <p>moje konto</p>
+            <ul class="footerMobile__list2 mobileList">
+                <a href="javascript:void(0)">
+                    <li class="mobileList__item">Informacje o sklepie</li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li class="mobileList__item">Porady</li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li class="mobileList__item">Blog</li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li class="mobileList__item">Galeria inspiracji</li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li class="mobileList__item">Kontakt</li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li class="mobileList__item">Informacje o sklepie</li>
+                </a>
+            </ul>
+        </div>
+        <div class="footerMobile__title container">
+            <p>informacje</p>
+            <ul class="footerMobile__list3 mobileList">
+                <a href="javascript:void(0)">
+                    <li class="mobileList__item">Informacje o sklepie</li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li class="mobileList__item">Porady</li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li class="mobileList__item">Blog</li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li class="mobileList__item">Galeria inspiracji</li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li class="mobileList__item">Kontakt</li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li class="mobileList__item">Informacje o sklepie</li>
+                </a>
+            </ul>
+        </div>
+        <div class="footerMobile__title container">
+            <p>informacje</p>
+            <ul class="footerMobile__list4 mobileList">
+                <a href="javascript:void(0)">
+                    <li class="mobileList__item">Informacje o sklepie</li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li class="mobileList__item">Porady</li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li class="mobileList__item">Blog</li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li class="mobileList__item">Galeria inspiracji</li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li class="mobileList__item">Kontakt</li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li class="mobileList__item">Informacje o sklepie</li>
+                </a>
+            </ul>
+        </div>
+    </footer>
+    <div class="footer__credits"></div>
+    <p class="footer__cops">Copyright 2022. Wszystkie prawa zastrzeżone</p>
+    <p class="footer__agency">Agencja interaktywna [ti] Powered by 2ClickShop</p>
     <script src="./js/homeSlider.js"></script>
     <script src="./js/hamburger.js"></script>
 </body>

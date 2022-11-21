@@ -1,4 +1,10 @@
 @media screen and (min-width: 200px) {
+  .footer {
+    display: none;
+  }
+  .footerMobile {
+    display: flex;
+  }
   .banner {
     display: flex;
     flex-direction: column;
@@ -134,6 +140,15 @@
   }
 }
 @media screen and (min-width: 768px) {
+  .footer {
+    display: inline-flex;
+  }
+  .footerMobile {
+    display: none;
+  }
+  .footerMobile .footerMobile__title {
+    display: none;
+  }
   .banner {
     display: flex;
     flex-direction: row;
@@ -272,7 +287,20 @@
 }
 @media screen and (min-width: 992px) {
   .header .top .top__row {
-    left: 46%;
+    left: 40%;
+    width: 400px;
+  }
+  .header .top .top__row .top__contact span {
+    font-size: 14px;
+  }
+  .header .top .top__row .top__favourite span {
+    font-size: 14px;
+  }
+  .header .top .top__row .top__account {
+    left: 60%;
+  }
+  .header .top .top__row .top__account span {
+    font-size: 14px;
   }
   main .banner .banner__one .banner__headline {
     position: absolute;
@@ -340,20 +368,7 @@
 }
 @media screen and (min-width: 1150px) {
   .header .top .top__row {
-    width: 400px;
-    left: 47%;
-  }
-  .header .top .top__row .top__contact span {
-    font-size: 14px;
-  }
-  .header .top .top__row .top__favourite span {
-    font-size: 14px;
-  }
-  .header .top .top__row .top__account {
-    left: 60%;
-  }
-  .header .top .top__row .top__account span {
-    font-size: 14px;
+    left: 44%;
   }
   main .banner .banner__one .banner__headline {
     position: absolute;
@@ -394,7 +409,41 @@
 }
 @media screen and (min-width: 1400px) {
   .header .top .top__row {
-    left: 57%;
+    left: 58%;
+  }
+  .header .top .top__shoppingCart {
+    height: 55px;
+    width: 290px;
+  }
+  .header .top .top__shoppingCart .shoppingCart__bg {
+    top: 7.5px;
+    height: 40px;
+    width: 75px;
+  }
+  .header .top .top__shoppingCart .shoppingCart__bg .shoppingCart__cartIcon {
+    left: 17px;
+    font-size: 34px;
+  }
+  .header .top .top__shoppingCart .shoppingCart__bg .shoppingCart__cartIcon .shoppingCart__amountBox {
+    width: 26px;
+    height: 14px;
+  }
+  .header .top .top__shoppingCart .shoppingCart__bg .shoppingCart__cartIcon .shoppingCart__amountBox .amountBox__count {
+    left: 3.7px;
+    bottom: -10px;
+    font-size: 10px;
+    color: #fff;
+  }
+  .header .top .top__shoppingCart span {
+    left: 100px;
+    top: 14px;
+    font-size: 14px;
+  }
+  .header .top .top__shoppingCart .shoppingCart__arrowBg {
+    height: 55px;
+  }
+  .header .top .top__shoppingCart .shoppingCart__arrowIcon {
+    top: 17px;
   }
   main .banner .banner__one .banner__headline {
     position: absolute;
@@ -471,7 +520,7 @@
 }
 @media screen and (min-width: 1700px) {
   .header .top .top__row {
-    left: 65%;
+    left: 64%;
   }
   main .banner .banner__one .banner__headline {
     position: absolute;

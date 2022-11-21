@@ -1,0 +1,44 @@
+@use "./variables" as color;
+.footerMobile {
+	max-width: 1920px;
+	margin-top: 20px;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+	width: 100%;
+	height: 600px;
+	font-size: 10px;
+	background-color: #393e40;
+	.footerMobile__title {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 50%;
+		text-transform: uppercase;
+		color: #fff;
+		font-family: "MetropolisB";
+		border-bottom: color.$border;
+		// .footerMobile__list1 {
+		// }
+		// .footerMobile__list2 {
+		// }
+		// .footerMobile__list3 {
+		// }
+		// .footerMobile__list4 {
+		// }
+		.mobileList {
+			display: flex;
+			flex-direction: column;
+			list-style-type: none;
+			a {
+				text-decoration: none;
+				color: #fff;
+			}
+			.mobileList__item {
+				display: flex;
+				padding: 5px 0;
+			}
+		}
+	}
+}

@@ -1,21 +1,131 @@
-.nav-mobile {
-  display: flex;
-  position: fixed;
-  align-items: center;
-  justify-content: space-evenly;
+.footer {
+  max-width: 1920px;
   width: 100%;
-  bottom: 0;
-  color: #000;
-  background-color: #e6e6e6;
-  z-index: 5;
+  height: 410px;
+  margin-top: 10px;
 }
-.nav-mobile a {
-  text-decoration: none;
-  display: flex;
+
+.footer__background {
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  color: #000;
-  width: 20%;
-  height: 50px;
-  border-right: 1px solid black;
-}/*# sourceMappingURL=footer.css.map */
+  width: 100%;
+  background-color: #393E40;
+}
+
+.footer__First {
+  position: relative;
+  width: 100%;
+  color: white;
+  font-size: 14px;
+  font-family: "MetropolisB";
+  list-style-type: none;
+  padding-left: 29px;
+}
+
+.list__item {
+  padding: 20px 0px;
+  font-family: "Metropolis";
+  cursor: pointer;
+}
+
+.footer__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__list {
+  border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+  padding: 0;
+}
+
+.footer__Second {
+  position: relative;
+  width: 100%;
+  color: white;
+  font-size: 14px;
+  font-family: "MetropolisB";
+  list-style-type: none;
+  padding-left: 29px;
+}
+
+.list__itemSecond {
+  padding: 20px 0px;
+  font-family: "Metropolis";
+  cursor: pointer;
+}
+
+.footer__listSecond {
+  border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+  padding: 0;
+}
+
+.footer__Third {
+  position: relative;
+  width: 100%;
+  color: white;
+  font-size: 14px;
+  font-family: "MetropolisB";
+  list-style-type: none;
+  padding: 0 29px;
+}
+
+.list__itemThird {
+  padding: 20px 0;
+  font-family: "Metropolis";
+  cursor: pointer;
+}
+
+.footer__listThird {
+  border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+  padding: 0;
+}
+
+.footer__Fourth {
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+  font-size: 14px;
+  font-family: "MetropolisB";
+  list-style-type: none;
+  padding-right: 29px;
+}
+
+.list__itemFourth {
+  padding: 20px 0px;
+  font-family: "Metropolis";
+  cursor: pointer;
+}
+
+.footer__listFourth {
+  border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+  padding: 0;
+}
+
+.footer__border {
+  position: absolute;
+  width: 25px;
+  border-bottom: 3px solid #F74137;
+  top: 7.6%;
+}
+
+.footer__credits {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  color: white;
+}
+
+.footer__cops {
+  position: absolute;
+  font-family: "Metropolis";
+  font-size: 14px;
+}
+
+.footer__agency {
+  text-align: right;
+  font-family: "Metropolis";
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=footer.css.map */

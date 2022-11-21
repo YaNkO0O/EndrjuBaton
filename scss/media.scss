@@ -1,4 +1,10 @@
 @media screen and (min-width: 200px) {
+	.footer {
+		display: none;
+	}
+	.footerMobile {
+		display: flex;
+	}
 	.banner {
 		display: flex;
 		flex-direction: column;
@@ -164,6 +170,15 @@
 	}
 }
 @media screen and (min-width: 768px) {
+	.footer {
+		display: inline-flex;
+	}
+	.footerMobile {
+		display: none;
+		.footerMobile__title {
+			display: none;
+		}
+	}
 	.banner {
 		display: flex;
 		flex-direction: row;
@@ -332,7 +347,24 @@
 	.header {
 		.top {
 			.top__row {
-				left: 46%;
+				left: 40%;
+				width: 400px;
+				.top__contact {
+					span {
+						font-size: 14px;
+					}
+				}
+				.top__favourite {
+					span {
+						font-size: 14px;
+					}
+				}
+				.top__account {
+					left: 60%;
+					span {
+						font-size: 14px;
+					}
+				}
 			}
 		}
 	}
@@ -419,24 +451,7 @@
 	.header {
 		.top {
 			.top__row {
-				width: 400px;
-				left: 47%;
-				.top__contact {
-					span {
-						font-size: 14px;
-					}
-				}
-				.top__favourite {
-					span {
-						font-size: 14px;
-					}
-				}
-				.top__account {
-					left: 60%;
-					span {
-						font-size: 14px;
-					}
-				}
+				left: 44%;
 			}
 		}
 	}
@@ -491,7 +506,41 @@
 	.header {
 		.top {
 			.top__row {
-				left: 57%;
+				left: 58%;
+			}
+			.top__shoppingCart {
+				height: 55px;
+				width: 290px;
+				.shoppingCart__bg {
+					top: 7.5px;
+					height: 40px;
+					width: 75px;
+					.shoppingCart__cartIcon {
+						left: 17px;
+						font-size: 34px;
+						.shoppingCart__amountBox {
+							width: 26px;
+							height: 14px;
+							.amountBox__count {
+								left: 3.7px;
+								bottom: -10px;
+								font-size: 10px;
+								color: #fff;
+							}
+						}
+					}
+				}
+				span {
+					left: 100px;
+					top: 14px;
+					font-size: 14px;
+				}
+				.shoppingCart__arrowBg {
+					height: 55px;
+				}
+				.shoppingCart__arrowIcon {
+					top: 17px;
+				}
 			}
 		}
 	}
@@ -583,11 +632,20 @@
 		}
 	}
 }
+@media screen and (min-width: 1470px) {
+	// .header {
+	// 	.top {
+	// 		.top__row {
+	// 			left: 40%;
+	// 		}
+	// 	}
+	// }
+}
 @media screen and (min-width: 1700px) {
 	.header {
 		.top {
 			.top__row {
-				left: 65%;
+				left: 64%;
 			}
 		}
 	}

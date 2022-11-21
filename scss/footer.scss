@@ -1,6 +1,6 @@
 @use './variables' as color;
 .footer{
-    max-width: 1920px;
+    // max-width: 1920px;
     width: 100%;
     height: 450px;
     background-color:#393E40;
@@ -19,7 +19,7 @@
 	font-size: 14px;
 	font-family: "MetropolisB";
 	list-style-type: none;
-	padding-left: 29px;
+	// padding-left: 29px;
 }
 .list__item {
 	padding: 20px 0px;
@@ -78,7 +78,7 @@
 	font-size: 14px;
 	font-family: "MetropolisB";
 	list-style-type: none;
-	padding-right: 29px;
+	// padding-right: 29px;
 }
 .list__itemFourth {
 	padding: 20px 0px;

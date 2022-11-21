@@ -2,6 +2,7 @@
 	width: 100%;
 	height: 100%;
 	.productList__headline {
+		position: relative;
 		width: 100%;
 		height: 140px;
 		border-bottom: 1px solid #e1e2e8;
@@ -12,13 +13,23 @@
 			letter-spacing: 1px;
 			padding-top: 50px;
 		}
+		.productList__bottom-red {
+			position: absolute;
+			left: 37%;
+			border-bottom: 1px solid #f74137;
+			width: 70px;
+			height: 1px;
+		}
 	}
 
 	.productList__conrainer {
 		height: 100%;
+		padding-top: 35px;
 		width: 100%;
-		background-color: aqua;
+
 		.productList__box {
+			column-gap: 1.5%;
+			overflow: auto;
 			display: flex;
 			flex-direction: row;
 			justify-content: space-between;
@@ -28,51 +39,85 @@
 			.productList__tile {
 				position: relative;
 				display: flex;
+				padding: auto;
 				flex-direction: column;
 				justify-content: center;
 				align-items: center;
 				height: 520px;
-				width: 300px;
+				width: 90%;
 				background-color: rgb(253, 0, 0);
-				// .productList__info {
-					// }
-				}
+				transition: 0.5s;
+
 				.productList__bg {
+					display: flex;
 					height: 50%;
-					width: 270px;
+					width: 200px;
 					background-image: url(../img/img_06.jpg);
+					background-position: center;
 				}
-				
+
 				.productList__info {
-					line-height: 50%;
+					position: relative;
+					padding-top: 70px;
+					line-height: 0.5;
 					display: flex;
 					flex-direction: column;
 					align-items: center;
-					
+					justify-content: center;
+					transition: 0.5s;
+
 					.bulb__headline {
-					display: flex;
-					color: #111111;
-					font-family: "MetropolisB";
+						display: flex;
+						width: 100%;
+						font-size: 13px;
+						color: #111111;
+						font-family: "MetropolisB";
+					}
+					.bulb__subheading {
+						display: flex;
+						color: #111111;
+						font-family: "Metropolis";
+						font-size: 14px;
+					}
+					.bulb__price--old {
+						display: flex;
+						color: #a3a3a3;
+						text-decoration: line-through;
+						font-family: "Metropolis";
+					}
+					.bulb__price--new {
+						display: flex;
+						color: #111111;
+						font-family: "MetropolisB";
+					}
 				}
-				.bulb__subheading {
+				.productList__basket {
 					display: flex;
-					color: #111111;
-					font-family: "Metropolis";
-					font-size: 14px;
-				}
-				.bulb__price--old {
-					display: flex;
-					color: #a3a3a3;
-					text-decoration: line-through;
-					font-family: "Metropolis";
-				}
-				.bulb__price--new {
-					display: flex;
-					color: #111111;
-					font-family: "MetropolisB";
+					flex-direction: row;
+					justify-content: space-between;
+					align-items: center;
+					border: 1px solid #e1e2e8;
+					width: 75px;
+					height: 45px;
+					.basket__btn--plus {
+						display: flex;
+						height: 100%;
+						
+						border: none;
+						cursor: pointer;
+					}
+					.basket__btn--minus {
+						display: flex;
+						height: 100%;
+						border: none;
+						cursor: pointer;
+					}
 				}
 			}
 		}
 	}
-	// .productList__
+	.productList__tile:hover > .productList__info {
+		position: absolute;
+		bottom: 13%;
+	}
 }

@@ -9,6 +9,7 @@
 			display: none;
 		}
 	}
+	
 
 	.top {
 		display: none;
@@ -23,7 +24,7 @@
 @media screen and (min-width: 430px) {
 	main {
 		.banner {
-			.banner__ {
+			.banner__one {
 				.banner__headline {
 					position: absolute;
 					top: 25%;
@@ -80,10 +81,10 @@
 					.homeSlider__info {
 						font-size: 11px;
 					}
-					.homeSlider__seeMore{
+					.homeSlider__seeMore {
 						top: 80px;
 						height: 16px;
-						font-size: 8px;	
+						font-size: 8px;
 						width: 50%;
 					}
 				}
@@ -151,10 +152,10 @@
 					.homeSlider__info {
 						font-size: 14px;
 					}
-					.homeSlider__seeMore{
+					.homeSlider__seeMore {
 						top: 100px;
 						height: 24px;
-						font-size: 12px;	
+						font-size: 12px;
 						width: 50%;
 					}
 				}
@@ -261,10 +262,10 @@
 					.homeSlider__info {
 						font-size: 16px;
 					}
-					.homeSlider__seeMore{
+					.homeSlider__seeMore {
 						top: 120px;
 						height: 28px;
-						font-size: 14px;	
+						font-size: 14px;
 						width: 50%;
 					}
 				}
@@ -395,10 +396,10 @@
 					.homeSlider__info {
 						font-size: 18px;
 					}
-					.homeSlider__seeMore{
+					.homeSlider__seeMore {
 						top: 150px;
 						height: 32px;
-						font-size: 16px;	
+						font-size: 16px;
 						width: 50%;
 					}
 				}
@@ -561,10 +562,10 @@
 					.homeSlider__info {
 						font-size: 20px;
 					}
-					.homeSlider__seeMore{
+					.homeSlider__seeMore {
 						top: 180px;
 						height: 36px;
-						font-size: 18px;	
+						font-size: 18px;
 						width: 50%;
 					}
 				}
@@ -650,10 +651,10 @@
 					.homeSlider__info {
 						font-size: 26px;
 					}
-					.homeSlider__seeMore{
+					.homeSlider__seeMore {
 						top: 220px;
 						height: 48px;
-						font-size: 24px;	
+						font-size: 24px;
 						width: 50%;
 					}
 				}

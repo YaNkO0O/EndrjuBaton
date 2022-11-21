@@ -1,6 +1,11 @@
 .banner__whyUs {
   position: relative;
-  display: flex;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.banner__container {
+  position: relative;
 }
 
 .banner__photo {
@@ -10,26 +15,13 @@
 }
 
 .banner__header {
+  justify-content: center;
   position: absolute;
-  top: 0%;
-  left: 33%;
-  font-family: MetropolisB;
-  font-size: 44px;
-  color: white;
-  padding: 22px 0 0 50px;
+  left: 50%;
 }
 
-.banner__text {
-  position: absolute;
-  left: 10%;
-  top: 20%;
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  padding: 22px 70px 0 70px;
-  color: white;
-  font-family: Metropolis;
-  font-size: 18px;
+.banner__headerText {
+  position: relative;
 }
 
 /*# sourceMappingURL=banner.css.map */

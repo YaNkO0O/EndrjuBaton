@@ -5,31 +5,12 @@
   height: 100%;
   margin-top: 20px;
 }
-.banner .banner__one {
-  position: relative;
-  display: flex;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.banner .banner__one img {
-  width: 100%;
-  filter: brightness(70%);
-}
-.banner .banner__two {
+.banner .banners {
   position: relative;
   display: flex;
   background-repeat: no-repeat;
 }
-.banner .banner__two img {
-  width: 100%;
-  filter: brightness(70%);
-}
-.banner .banner__three {
-  position: relative;
-  display: flex;
-  background-repeat: no-repeat;
-}
-.banner .banner__three img {
+.banner .banners img {
   width: 100%;
   filter: brightness(70%);
 }

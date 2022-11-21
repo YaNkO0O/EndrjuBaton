@@ -95,6 +95,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  opacity: 0;
   border: 1px solid #e1e2e8;
   width: 75px;
   height: 45px;
@@ -112,8 +113,10 @@
   cursor: pointer;
 }
 .productList .productList__tile:hover > .productList__info {
-  position: absolute;
-  bottom: 13%;
+  transform: translateY(-45px);
+}
+.productList .productList__tile:hover > .productList__basket {
+  opacity: 1;
 }
 
 /*# sourceMappingURL=productList.css.map */

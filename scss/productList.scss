@@ -119,7 +119,9 @@
 	.productList__tile:hover > .productList__info {
 		transform: translateY(-45px);
 	}
-	.productList__tile:hover > .productList__basket{
-		opacity: 1;
+	.productList__tile:hover {
+		.productList__basket {
+			opacity: 1 !important;
+		}
 	}
 }

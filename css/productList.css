@@ -115,8 +115,8 @@
 .productList .productList__tile:hover > .productList__info {
   transform: translateY(-45px);
 }
-.productList .productList__tile:hover > .productList__basket {
-  opacity: 1;
+.productList .productList__tile:hover .productList__basket {
+  opacity: 1 !important;
 }
 
 /*# sourceMappingURL=productList.css.map */

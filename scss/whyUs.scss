@@ -6,30 +6,12 @@
     margin: 0 auto;
 }
 
-.banner__container{
-    position: relative;
-    // display: flex;
-}
+
 
 .banner__photo{
+    // position: absolute;
     width: 100%;
     height: 100%;
     filter: brightness(70%);
 }
 
-.banner__header{
-    // display: flex;
-    justify-content: center;
-    // position: relative;
-    position: absolute;
-    left: 50%;
-
-}
-
-.banner__headerText{
-    position: relative;
-    // display: flex;
-    // flex-direction: row;
-    // position: absolute;
-    // top:100%;
-}

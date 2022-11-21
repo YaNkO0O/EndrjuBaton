@@ -1,0 +1,119 @@
+.productList {
+  width: 100%;
+  height: 100%;
+}
+.productList .productList__headline {
+  position: relative;
+  width: 100%;
+  height: 140px;
+  border-bottom: 1px solid #e1e2e8;
+}
+.productList .productList__headline .productList__headlineText {
+  text-align: center;
+  font-size: 44px;
+  font-family: "MetropolisB";
+  letter-spacing: 1px;
+  padding-top: 50px;
+}
+.productList .productList__headline .productList__bottom-red {
+  position: absolute;
+  left: 37%;
+  border-bottom: 1px solid #f74137;
+  width: 70px;
+  height: 1px;
+}
+.productList .productList__conrainer {
+  height: 100%;
+  padding-top: 35px;
+  width: 100%;
+}
+.productList .productList__conrainer .productList__box {
+  column-gap: 1.5%;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  background-color: rebeccapurple;
+}
+.productList .productList__conrainer .productList__box .productList__tile {
+  position: relative;
+  display: flex;
+  padding: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 520px;
+  width: 90%;
+  background-color: rgb(253, 0, 0);
+  transition: 0.5s;
+}
+.productList .productList__conrainer .productList__box .productList__tile .productList__bg {
+  display: flex;
+  height: 50%;
+  width: 200px;
+  background-image: url(../img/img_06.jpg);
+  background-position: center;
+}
+.productList .productList__conrainer .productList__box .productList__tile .productList__info {
+  position: relative;
+  padding-top: 70px;
+  line-height: 0.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+.productList .productList__conrainer .productList__box .productList__tile .productList__info .bulb__headline {
+  display: flex;
+  width: 100%;
+  font-size: 13px;
+  color: #111111;
+  font-family: "MetropolisB";
+}
+.productList .productList__conrainer .productList__box .productList__tile .productList__info .bulb__subheading {
+  display: flex;
+  color: #111111;
+  font-family: "Metropolis";
+  font-size: 14px;
+}
+.productList .productList__conrainer .productList__box .productList__tile .productList__info .bulb__price--old {
+  display: flex;
+  color: #a3a3a3;
+  text-decoration: line-through;
+  font-family: "Metropolis";
+}
+.productList .productList__conrainer .productList__box .productList__tile .productList__info .bulb__price--new {
+  display: flex;
+  color: #111111;
+  font-family: "MetropolisB";
+}
+.productList .productList__conrainer .productList__box .productList__tile .productList__basket {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #e1e2e8;
+  width: 75px;
+  height: 45px;
+}
+.productList .productList__conrainer .productList__box .productList__tile .productList__basket .basket__btn--plus {
+  display: flex;
+  height: 100%;
+  border: none;
+  cursor: pointer;
+}
+.productList .productList__conrainer .productList__box .productList__tile .productList__basket .basket__btn--minus {
+  display: flex;
+  height: 100%;
+  border: none;
+  cursor: pointer;
+}
+.productList .productList__tile:hover > .productList__info {
+  position: absolute;
+  bottom: 13%;
+}
+
+/*# sourceMappingURL=productList.css.map */

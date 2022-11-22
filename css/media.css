@@ -138,6 +138,16 @@
     font-size: 12px;
     width: 50%;
   }
+  main .productList .productList__headline .productList__bottom-red {
+    position: absolute;
+    left: 43%;
+    border-bottom: 1px solid #f74137;
+    width: 70px;
+    height: 1px;
+  }
+  main .productList .productList__headline .productList__headlineText {
+    padding-top: 53px;
+  }
 }
 @media screen and (min-width: 768px) {
   .footer {
@@ -242,6 +252,13 @@
     height: 28px;
     font-size: 14px;
     width: 50%;
+  }
+  main .productList .productList__headline .productList__bottom-red {
+    position: absolute;
+    left: 45%;
+    border-bottom: 1px solid #f74137;
+    width: 70px;
+    height: 1px;
   }
 }
 @media screen and (min-width: 850px) {
@@ -364,6 +381,13 @@
   main .homeSlider .homeSlider__prev {
     font-size: 18px;
     width: 40px;
+  }
+  main .productList .productList__headline .productList__bottom-red {
+    position: absolute;
+    left: 46%;
+    border-bottom: 1px solid #f74137;
+    width: 70px;
+    height: 1px;
   }
 }
 @media screen and (min-width: 1150px) {
@@ -517,6 +541,13 @@
     height: 70px;
     width: 60px;
   }
+  main .productList .productList__headline .productList__bottom-red {
+    position: absolute;
+    left: 47%;
+    border-bottom: 1px solid #f74137;
+    width: 70px;
+    height: 1px;
+  }
 }
 @media screen and (min-width: 1700px) {
   .header .top .top__row {
@@ -577,6 +608,13 @@
     height: 48px;
     font-size: 24px;
     width: 50%;
+  }
+  main .productList .productList__headline .productList__bottom-red {
+    position: absolute;
+    left: 47.9%;
+    border-bottom: 1px solid #f74137;
+    width: 70px;
+    height: 1px;
   }
 }
 

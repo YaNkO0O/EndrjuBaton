@@ -25,6 +25,20 @@
 			display: none;
 		}
 	}
+	main {
+		.productList {
+			.productList__conrainer {
+				.productList__box {
+					.productList__arrow--right {
+						display: none;
+					}
+					.productList__arrow--left {
+						display: none;
+					}
+				}
+			}
+		}
+	}
 }
 @media screen and (min-width: 430px) {
 	main {
@@ -314,6 +328,36 @@
 				}
 			}
 		}
+		.productList {
+			.productList__conrainer {
+				.productList__box {
+					.productList__slaider{
+						overflow:hidden;
+					}
+					.productList__arrow--right {
+						display: flex;
+					}
+					.productList__arrow--left {
+						display: flex;
+					}
+				}
+			}
+		}
+		.productList{
+			.productList__conrainer{
+				.productList__box{
+					.productList__arrows{
+						.productList__arrow--left{
+							top: 36%;
+							}
+							.productList__arrow--right{
+								top: 36%;
+							}
+					}
+				}
+			}
+		}
+			
 	}
 }
 @media screen and (min-width: 850px) {
@@ -366,6 +410,20 @@
 					top: 40%;
 					left: 8%;
 					font-size: 20px;
+				}
+			}
+		}
+		.productList{
+			.productList__conrainer{
+				.productList__box{
+					.productList__arrows{
+						.productList__arrow--left{
+							top: 36%;
+							}
+							.productList__arrow--right{
+								top: 36%;
+							}
+					}
 				}
 			}
 		}
@@ -484,6 +542,20 @@
 				}
 			}
 		}
+		.productList{
+			.productList__conrainer{
+				.productList__box{
+					.productList__arrows{
+						.productList__arrow--left{
+							top: 36%;
+							}
+							.productList__arrow--right{
+								top: 36%;
+							}
+					}
+				}
+			}
+		}
 	}
 }
 @media screen and (min-width: 1150px) {
@@ -536,6 +608,20 @@
 					top: 40%;
 					left: 8%;
 					font-size: 27px;
+				}
+			}
+		}
+		.productList{
+			.productList__conrainer{
+				.productList__box{
+					.productList__arrows{
+						.productList__arrow--left{
+							top: 36%;
+							}
+							.productList__arrow--right{
+								top: 36%;
+							}
+					}
 				}
 			}
 		}
@@ -680,6 +766,20 @@
 				}
 			}
 		}
+		.productList{
+			.productList__conrainer{
+				.productList__box{
+					.productList__arrows{
+						.productList__arrow--left{
+							top: 36%;
+							}
+							.productList__arrow--right{
+								top: 36%;
+							}
+					}
+				}
+			}
+		}
 	}
 }
 @media screen and (min-width: 1470px) {
@@ -690,6 +790,20 @@
 	// 		}
 	// 	}
 	// }
+	.productList{
+		.productList__conrainer{
+			.productList__box{
+				.productList__arrows{
+					.productList__arrow--left{
+						top: 38%;
+						}
+						.productList__arrow--right{
+							top: 38%;
+						}
+				}
+			}
+		}
+	}
 }
 @media screen and (min-width: 1700px) {
 	.header {

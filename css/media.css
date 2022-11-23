@@ -24,6 +24,12 @@
   .header .nav {
     display: none;
   }
+  main .productList .productList__conrainer .productList__box .productList__arrow--right {
+    display: none;
+  }
+  main .productList .productList__conrainer .productList__box .productList__arrow--left {
+    display: none;
+  }
 }
 @media screen and (min-width: 430px) {
   main .banner .banner__one .banner__headline {
@@ -260,6 +266,21 @@
     width: 70px;
     height: 1px;
   }
+  main .productList .productList__conrainer .productList__box .productList__slaider {
+    overflow: hidden;
+  }
+  main .productList .productList__conrainer .productList__box .productList__arrow--right {
+    display: flex;
+  }
+  main .productList .productList__conrainer .productList__box .productList__arrow--left {
+    display: flex;
+  }
+  main .productList .productList__conrainer .productList__box .productList__arrows .productList__arrow--left {
+    top: 36%;
+  }
+  main .productList .productList__conrainer .productList__box .productList__arrows .productList__arrow--right {
+    top: 36%;
+  }
 }
 @media screen and (min-width: 850px) {
   .header .top .top__row {
@@ -300,6 +321,12 @@
     top: 40%;
     left: 8%;
     font-size: 20px;
+  }
+  main .productList .productList__conrainer .productList__box .productList__arrows .productList__arrow--left {
+    top: 36%;
+  }
+  main .productList .productList__conrainer .productList__box .productList__arrows .productList__arrow--right {
+    top: 36%;
   }
 }
 @media screen and (min-width: 992px) {
@@ -389,6 +416,12 @@
     width: 70px;
     height: 1px;
   }
+  main .productList .productList__conrainer .productList__box .productList__arrows .productList__arrow--left {
+    top: 36%;
+  }
+  main .productList .productList__conrainer .productList__box .productList__arrows .productList__arrow--right {
+    top: 36%;
+  }
 }
 @media screen and (min-width: 1150px) {
   .header .top .top__row {
@@ -429,6 +462,12 @@
     top: 40%;
     left: 8%;
     font-size: 27px;
+  }
+  main .productList .productList__conrainer .productList__box .productList__arrows .productList__arrow--left {
+    top: 36%;
+  }
+  main .productList .productList__conrainer .productList__box .productList__arrows .productList__arrow--right {
+    top: 36%;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -547,6 +586,20 @@
     border-bottom: 1px solid #f74137;
     width: 70px;
     height: 1px;
+  }
+  main .productList .productList__conrainer .productList__box .productList__arrows .productList__arrow--left {
+    top: 36%;
+  }
+  main .productList .productList__conrainer .productList__box .productList__arrows .productList__arrow--right {
+    top: 36%;
+  }
+}
+@media screen and (min-width: 1470px) {
+  .productList .productList__conrainer .productList__box .productList__arrows .productList__arrow--left {
+    top: 38%;
+  }
+  .productList .productList__conrainer .productList__box .productList__arrows .productList__arrow--right {
+    top: 38%;
   }
 }
 @media screen and (min-width: 1700px) {

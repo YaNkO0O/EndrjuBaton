@@ -62,36 +62,30 @@
   z-index: 1;
 }
 .productList .productList__conrainer .productList__box .productList__slaider {
-  column-gap: 1.5%;
-  overflow: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  gap: 10px;
+  overflow-x: scroll;
+  display: grid;
+  grid-template-columns: repeat(10, 352px);
   width: 100%;
   height: 100%;
 }
 .productList .productList__conrainer .productList__box .productList__slaider .productList__tile {
-  position: relative;
   display: flex;
   padding: 10px;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   height: 520px;
-  width: 356px;
   background-color: #fff;
-  transition: 0.5s;
 }
 .productList .productList__conrainer .productList__box .productList__slaider .productList__tile .productList__bg {
-  display: flex;
   height: 45%;
   width: 200px;
   background-image: url("../img/img_06.jpg");
   background-position: center;
 }
 .productList .productList__conrainer .productList__box .productList__slaider .productList__tile .productList__info {
-  position: relative;
-  padding-top: 0px;
+  padding-top: 0;
   line-height: 0.5;
   display: flex;
   flex-direction: column;
@@ -100,26 +94,22 @@
   transition: transform 0.3s;
 }
 .productList .productList__conrainer .productList__box .productList__slaider .productList__tile .productList__info .bulb__headline {
-  display: flex;
   width: 100%;
   font-size: 13px;
   color: #111111;
   font-family: "MetropolisB";
 }
 .productList .productList__conrainer .productList__box .productList__slaider .productList__tile .productList__info .bulb__subheading {
-  display: flex;
   color: #111111;
   font-family: "Metropolis";
   font-size: 14px;
 }
 .productList .productList__conrainer .productList__box .productList__slaider .productList__tile .productList__info .bulb__price--old {
-  display: flex;
   color: #a3a3a3;
   text-decoration: line-through;
   font-family: "Metropolis";
 }
 .productList .productList__conrainer .productList__box .productList__slaider .productList__tile .productList__info .bulb__price--new {
-  display: flex;
   color: #111111;
   font-family: "MetropolisB";
 }
@@ -141,13 +131,11 @@
   height: 45px;
 }
 .productList .productList__conrainer .productList__box .productList__slaider .productList__tile .productList__buttons .productList__basket .basket__btn--plus {
-  display: flex;
   height: 100%;
   border: none;
   cursor: pointer;
 }
 .productList .productList__conrainer .productList__box .productList__slaider .productList__tile .productList__buttons .productList__basket .basket__btn--minus {
-  display: flex;
   height: 100%;
   border: none;
   cursor: pointer;

@@ -319,8 +319,8 @@
 			position: absolute;
 			display: flex;
 			justify-content: center;
-			width: 120px;
-			height: 80px;
+			width: 100px;
+			height: 70px;
 			border: 1px solid white;
 			left: 18%;
 			top: 48%;
@@ -350,8 +350,8 @@
 			position: absolute;
 			display: flex;
 			justify-content: center;
-			width: 120px;
-			height: 80px;
+			width: 100px;
+			height: 70px;
 			border: 1px solid rgba($color: white, $alpha: 2);
 			left: 43%;
 			top: 48%;
@@ -381,8 +381,8 @@
 			position: absolute;
 			display: flex;
 			justify-content: center;
-			width: 120px;
-			height: 80px;
+			width: 100px;
+			height: 70px;
 			border: 1px solid rgba($color: white, $alpha: 2);
 			top: 48%;
 			left: 69%;
@@ -410,12 +410,12 @@
 			display: flex;
 			position: absolute;
 			top: 85%;
-			left: 43.5%;
+			left: 43%;
 			cursor: pointer;
 		}
 		
 		.button__info{
-			width: 110px;
+			width: 100px;
 			height: 25px;
 			border: none;
 			background-color: #f74137;
@@ -423,11 +423,11 @@
 			color: white;
 			cursor: pointer;
 			z-index: 5;
-			font-size: 8px;
+			font-size: 7px;
 		
 		}
 		.whyUs__text{
-			font-size: 11px;
+			font-size: 9px;
 			left: 3%;
 			top: 30%;
 		}

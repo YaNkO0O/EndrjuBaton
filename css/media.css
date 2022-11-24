@@ -81,6 +81,17 @@
     font-size: 8px;
     width: 50%;
   }
+  main .whyUs__headerText {
+    font-size: 15px;
+    padding: 1px 0 0 0;
+  }
+  main .whyUs__header {
+    padding: 0 0 1px 0;
+  }
+  main .whyUs__headline {
+    height: 88px;
+    padding: 0 0 1px 0;
+  }
 }
 @media screen and (min-width: 600px) {
   main .banner .banner__one .banner__headline {
@@ -137,6 +148,17 @@
     height: 24px;
     font-size: 12px;
     width: 50%;
+  }
+  main .whyUs__headerText {
+    font-size: 17px;
+    padding: 0px 0 0 0;
+  }
+  main .whyUs__header {
+    padding: 0px 0 1px 0;
+  }
+  main .whyUs__headline {
+    height: 108px;
+    padding: 0px 0 1px 0;
   }
 }
 @media screen and (min-width: 768px) {
@@ -243,6 +265,17 @@
     font-size: 14px;
     width: 50%;
   }
+  main .whyUs__headerText {
+    font-size: 20px;
+    padding: 1px 0 1px 0;
+  }
+  main .whyUs__header {
+    padding: 0 0 1px 0;
+  }
+  main .whyUs__headline {
+    height: 50px;
+    padding: 0 0 1px 0;
+  }
 }
 @media screen and (min-width: 850px) {
   .header .top .top__row {
@@ -283,6 +316,17 @@
     top: 40%;
     left: 8%;
     font-size: 20px;
+  }
+  main .whyUs__headerText {
+    font-size: 21px;
+    padding: 1px 0 1px 0;
+  }
+  main .whyUs__header {
+    padding: 0 0 1px 0;
+  }
+  main .whyUs__headline {
+    height: 60px;
+    padding: 0 0 1px 0;
   }
 }
 @media screen and (min-width: 992px) {
@@ -365,6 +409,17 @@
     font-size: 18px;
     width: 40px;
   }
+  main .whyUs__headerText {
+    font-size: 25px;
+    padding: 0 0 1px 0;
+  }
+  main .whyUs__header {
+    padding: 0 0 1px 0;
+  }
+  main .whyUs__headline {
+    height: 100px;
+    padding: 0 0 1px 0;
+  }
 }
 @media screen and (min-width: 1150px) {
   .header .top .top__row {
@@ -405,6 +460,17 @@
     top: 40%;
     left: 8%;
     font-size: 27px;
+  }
+  main .whyUs__header {
+    padding: 0 0 1px 0;
+  }
+  main .whyUs__headerText {
+    font-size: 30px;
+    padding: 10px 0 0 0;
+  }
+  main .whyUs__headline {
+    height: 80px;
+    padding: 0 0 90px 0;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -517,6 +583,23 @@
     height: 70px;
     width: 60px;
   }
+  main .whyUs__header {
+    padding: 0 0 1px 0;
+  }
+  main .whyUs__headerText {
+    font-size: 38px;
+    padding: 1px 0 1px 0;
+  }
+  main .whyUs__headline {
+    height: 300px;
+    padding: 0 0 1px 0;
+  }
+}
+@media screen and (min-width: 1470px) {
+  .whyUs__text {
+    line-height: 125%;
+    font-family: Metropolis;
+  }
 }
 @media screen and (min-width: 1700px) {
   .header .top .top__row {
@@ -577,6 +660,23 @@
     height: 48px;
     font-size: 24px;
     width: 50%;
+  }
+  main .whyUs__text {
+    font-size: 22px;
+    line-height: 120%;
+    left: 17%;
+    max-width: 1200px;
+  }
+  main .whyUs__headerText {
+    font-size: 42px;
+    padding: 15px 0 0 0;
+  }
+  main .whyUs__header {
+    padding: 0 0 -50px 0;
+  }
+  .whyUs__headline {
+    height: 300px;
+    padding: 0 0 1px 0;
   }
 }
 

@@ -1,11 +1,223 @@
 .banner__whyUs{
+    margin: 50px 0 0 0;
     position: relative;
     max-width: 1920px;
     margin: 0 auto;
 }
 .banner__photo{
+    // position: absolute;
     width: 100%;
     height: 100%;
     filter: brightness(70%);
+    z-index: 1;
 }
 
+.whyUs__header{
+    display: flex;
+    position:relative;
+    justify-content: center;
+    align-items: flex-end;
+    // font-size: 1.5rem;
+    border-bottom: 1px solid rgba($color: white, $alpha: 0.2);
+    
+}
+
+.whyUs__headerText{
+    display: flex;
+    // position: absolute;
+    // left: 42%;
+    align-items: flex-start;
+     color: white;
+    font-size: 12px;
+    font-family: MetropolisB;
+    padding: 0 0 100px 0;
+    margin: 50px 0 20px 0;
+}
+
+.whyUs__headline{
+    // position: absolute;
+    // bottom: 0;
+    width: 100%;
+    height: 100px;
+    // border-bottom: 1px solid grey;
+    padding: 0 0 5px 0;
+
+}
+
+.whyUs__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.whyUs__wraper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+   
+}
+
+// .whyUs__textContainer{
+    
+// }
+
+.whyUs__textWraper{
+    display: flex;
+    // position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.whyUs__textContainer{
+    max-width: 840px;
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    // bottom: 300px;
+    // left: 25%;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+.whyUs__text{
+    max-width: 840px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    // font-size: 14px;
+    z-index: 2;
+    display: flex;
+    // align-items: flex-start;
+    justify-content: center;
+    justify-content: space-between;
+    top: 25%;
+    left: 24%;
+    color: white;
+    font-family: Metropolis;
+    text-align: center;
+    line-height: 125%;
+}
+
+
+.whyUs__box{
+    display: flex;
+    justify-content: flex-start;
+}    
+
+.whyUs__boxDelivery{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 130px;
+    border: 1px solid white;
+    left: 18%;
+    top: 45%;
+
+}
+
+.whyUs__BoxDeliveryText{
+    display: flex;
+    // justify-content: flex-end;
+    align-items: flex-end;
+    color: white;
+    font-size: 15px;
+    font-family: MetropolisB;
+
+}
+
+.whyUs__deliveryIcon{
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+    width: 65px;
+    height: 45px;
+    top: 20%;
+}
+
+.whyUs__boxRange{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 130px;
+    border: 1px solid white;
+    left: 43%;
+    top: 45%;
+}
+
+.whyUs__BoxRangeText{
+    display: flex;
+    // justify-content: flex-end;
+    align-items: flex-end;
+    color: white;
+    font-size: 15px;
+    font-family: MetropolisB;
+
+}
+        
+.whyUs__rangeIcon{
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+    width: 55px;
+    height: 45px;
+    top: 20%;
+
+}
+
+.whyUs__boxReturn{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 130px;
+    border: 1px solid white;
+    top: 45%;
+    left: 69%;
+}
+
+.whyUs__BoxReturnText{
+    display: flex;
+    // justify-content: flex-end;
+    align-items: flex-end;
+    color: white;
+    font-size: 15px;
+    font-family: MetropolisB;
+}
+
+.whyUs__returnIcon{
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+    width: 55px;
+    height: 45px;
+    top: 20%;
+}
+
+.button__companyInfo{
+    display: flex;
+    position: absolute;
+    top: 78%;
+    left: 44%;
+    cursor: pointer;
+}
+
+.button__info{
+    width: 220px;
+    height: 50px;
+    border: none;
+    background-color: #f74137;
+    font-family: "MetropolisB";
+    color: white;
+    cursor: pointer;
+    z-index: 5;
+
+}

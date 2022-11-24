@@ -1,0 +1,135 @@
+@media screen and (min-width: 200px) {
+  .footer {
+    display: none;
+  }
+  .footerMobile {
+    display: flex;
+  }
+  .top {
+    display: none;
+  }
+  .header {
+    height: 70px;
+  }
+  .header .nav {
+    display: none;
+  }
+  main .filters__brand {
+    display: none;
+  }
+  main .box__text {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    display: inline-flex;
+  }
+  .footerMobile {
+    display: none;
+  }
+  .footerMobile .footerMobile__title {
+    display: none;
+  }
+  .mobileNav {
+    display: none;
+  }
+  .top {
+    display: flex;
+  }
+  .top .header__logoMobile {
+    display: none;
+  }
+  .header {
+    height: 140px;
+  }
+  .header .header__logo {
+    display: block;
+  }
+  .header .header__logoMobile {
+    display: none;
+  }
+  .header .nav {
+    display: flex;
+  }
+  .hamburger {
+    display: none;
+  }
+  main .filters__brand {
+    display: flex;
+  }
+}
+@media screen and (min-width: 850px) {
+  .header .top .top__row {
+    left: 39%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .header .top .top__row {
+    left: 40%;
+    width: 400px;
+  }
+  .header .top .top__row .top__contact span {
+    font-size: 14px;
+  }
+  .header .top .top__row .top__favourite span {
+    font-size: 14px;
+  }
+  .header .top .top__row .top__account {
+    left: 60%;
+  }
+  .header .top .top__row .top__account span {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1150px) {
+  .header .top .top__row {
+    left: 44%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .header .top .top__row {
+    left: 58%;
+  }
+  .header .top .top__shoppingCart {
+    height: 55px;
+    width: 290px;
+  }
+  .header .top .top__shoppingCart .shoppingCart__bg {
+    top: 7.5px;
+    height: 40px;
+    width: 75px;
+  }
+  .header .top .top__shoppingCart .shoppingCart__bg .shoppingCart__cartIcon {
+    left: 17px;
+    font-size: 34px;
+  }
+  .header .top .top__shoppingCart .shoppingCart__bg .shoppingCart__cartIcon .shoppingCart__amountBox {
+    width: 26px;
+    height: 14px;
+  }
+  .header .top .top__shoppingCart .shoppingCart__bg .shoppingCart__cartIcon .shoppingCart__amountBox .amountBox__count {
+    left: 3.7px;
+    bottom: -10px;
+    font-size: 10px;
+    color: #fff;
+  }
+  .header .top .top__shoppingCart span {
+    left: 100px;
+    top: 14px;
+    font-size: 14px;
+  }
+  .header .top .top__shoppingCart .shoppingCart__arrowBg {
+    height: 55px;
+  }
+  .header .top .top__shoppingCart .shoppingCart__arrowIcon {
+    top: 17px;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .header .top .top__row {
+    left: 64%;
+  }
+}
+
+/*# sourceMappingURL=media2.css.map */

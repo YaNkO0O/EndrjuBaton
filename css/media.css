@@ -266,6 +266,9 @@
     width: 70px;
     height: 1px;
   }
+  main .productList .productList__conrainer .productList__box .productList__slaider {
+    overflow-x: hidden;
+  }
   main .productList .productList__conrainer .productList__box .productList__arrow--right {
     display: flex;
   }

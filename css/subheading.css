@@ -1,0 +1,12 @@
+.subheading__box {
+  display: flex;
+}
+.subheading__box .box__text {
+  padding: 0 20px;
+  font-family: "Metropolis";
+}
+.subheading__box .text__main {
+  padding-left: 30px;
+}
+
+/*# sourceMappingURL=subheading.css.map */

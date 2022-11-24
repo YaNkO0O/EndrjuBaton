@@ -315,6 +315,122 @@
 				}
 			}
 		}
+		.whyUs__boxDelivery{
+			position: absolute;
+			display: flex;
+			justify-content: center;
+			width: 120px;
+			height: 80px;
+			border: 1px solid white;
+			left: 18%;
+			top: 48%;
+		
+		}
+		
+		.whyUs__BoxDeliveryText{
+			display: flex;
+			// justify-content: flex-end;
+			align-items: flex-end;
+			color: white;
+			font-size: 8px;
+			font-family: MetropolisB;
+		
+		}
+		
+		.whyUs__deliveryIcon{
+			display: flex;
+			position: absolute;
+			align-items: flex-end;
+			width: 35px;
+			height: 30px;
+			top: 20%;
+		}
+		
+		.whyUs__boxRange{
+			position: absolute;
+			display: flex;
+			justify-content: center;
+			width: 120px;
+			height: 80px;
+			border: 1px solid rgba($color: white, $alpha: 2);
+			left: 43%;
+			top: 48%;
+		}
+		
+		.whyUs__BoxRangeText{
+			display: flex;
+			// justify-content: flex-end;
+			align-items: flex-end;
+			color: white;
+			font-size: 8px;
+			font-family: MetropolisB;
+		
+		}
+				
+		.whyUs__rangeIcon{
+			display: flex;
+			position: absolute;
+			align-items: flex-end;
+			width: 35px;
+			height: 30px;
+			top: 20%;
+		
+		}
+		
+		.whyUs__boxReturn{
+			position: absolute;
+			display: flex;
+			justify-content: center;
+			width: 120px;
+			height: 80px;
+			border: 1px solid rgba($color: white, $alpha: 2);
+			top: 48%;
+			left: 69%;
+		}
+		
+		.whyUs__BoxReturnText{
+			display: flex;
+			// justify-content: flex-end;
+			align-items: flex-end;
+			color: white;
+			font-size: 8px;
+			font-family: MetropolisB;
+		}
+		
+		.whyUs__returnIcon{
+			display: flex;
+			position: absolute;
+			align-items: flex-end;
+			width: 35px;
+			height: 30px;
+			top: 20%;
+		}
+		
+		.button__companyInfo{
+			display: flex;
+			position: absolute;
+			top: 85%;
+			left: 43.5%;
+			cursor: pointer;
+		}
+		
+		.button__info{
+			width: 110px;
+			height: 25px;
+			border: none;
+			background-color: #f74137;
+			font-family: "MetropolisB";
+			color: white;
+			cursor: pointer;
+			z-index: 5;
+			font-size: 8px;
+		
+		}
+		.whyUs__text{
+			font-size: 11px;
+			left: 3%;
+			top: 30%;
+		}
 	}
 }
 @media screen and (min-width: 850px) {
@@ -369,6 +485,122 @@
 					font-size: 20px;
 				}
 			}
+		}
+		.whyUs__boxDelivery{
+			position: absolute;
+			display: flex;
+			justify-content: center;
+			width: 120px;
+			height: 80px;
+			border: 1px solid white;
+			left: 18%;
+			top: 48%;
+		
+		}
+		
+		.whyUs__BoxDeliveryText{
+			display: flex;
+			// justify-content: flex-end;
+			align-items: flex-end;
+			color: white;
+			font-size: 8px;
+			font-family: MetropolisB;
+		
+		}
+		
+		.whyUs__deliveryIcon{
+			display: flex;
+			position: absolute;
+			align-items: flex-end;
+			width: 35px;
+			height: 30px;
+			top: 20%;
+		}
+		
+		.whyUs__boxRange{
+			position: absolute;
+			display: flex;
+			justify-content: center;
+			width: 120px;
+			height: 80px;
+			border: 1px solid rgba($color: white, $alpha: 2);
+			left: 43%;
+			top: 48%;
+		}
+		
+		.whyUs__BoxRangeText{
+			display: flex;
+			// justify-content: flex-end;
+			align-items: flex-end;
+			color: white;
+			font-size: 8px;
+			font-family: MetropolisB;
+		
+		}
+				
+		.whyUs__rangeIcon{
+			display: flex;
+			position: absolute;
+			align-items: flex-end;
+			width: 35px;
+			height: 30px;
+			top: 20%;
+		
+		}
+		
+		.whyUs__boxReturn{
+			position: absolute;
+			display: flex;
+			justify-content: center;
+			width: 120px;
+			height: 80px;
+			border: 1px solid rgba($color: white, $alpha: 2);
+			top: 48%;
+			left: 69%;
+		}
+		
+		.whyUs__BoxReturnText{
+			display: flex;
+			// justify-content: flex-end;
+			align-items: flex-end;
+			color: white;
+			font-size: 8px;
+			font-family: MetropolisB;
+		}
+		
+		.whyUs__returnIcon{
+			display: flex;
+			position: absolute;
+			align-items: flex-end;
+			width: 35px;
+			height: 30px;
+			top: 20%;
+		}
+		
+		.button__companyInfo{
+			display: flex;
+			position: absolute;
+			top: 85%;
+			left: 43.5%;
+			cursor: pointer;
+		}
+		
+		.button__info{
+			width: 110px;
+			height: 25px;
+			border: none;
+			background-color: #f74137;
+			font-family: "MetropolisB";
+			color: white;
+			cursor: pointer;
+			z-index: 5;
+			font-size: 8px;
+		
+		}
+		.whyUs__text{
+			font-size: 11px;
+			left: 3%;
+			top: 30%;
 		}
 	}
 }
@@ -474,6 +706,128 @@
 				width: 40px;
 			}
 		}
+		.whyUs__header{
+			font-size: 18px;
+		}
+		.whyUs__text{
+			font-size: 13px;
+			left: 5%;
+		}
+		.whyUs__boxDelivery{
+			position: absolute;
+			display: flex;
+			justify-content: center;
+			width: 150px;
+			height: 90px;
+			border: 1px solid white;
+			left: 18%;
+			top: 48%;
+		
+		}
+		
+		.whyUs__BoxDeliveryText{
+			display: flex;
+			// justify-content: flex-end;
+			align-items: flex-end;
+			color: white;
+			font-size: 10px;
+			font-family: MetropolisB;
+		
+		}
+		
+		.whyUs__deliveryIcon{
+			display: flex;
+			position: absolute;
+			align-items: flex-end;
+			width: 45px;
+			height: 40px;
+			top: 20%;
+		}
+		
+		.whyUs__boxRange{
+			position: absolute;
+			display: flex;
+			justify-content: center;
+			width: 150px;
+			height: 90px;
+			border: 1px solid rgba($color: white, $alpha: 2);
+			left: 43%;
+			top: 48%;
+		}
+		
+		.whyUs__BoxRangeText{
+			display: flex;
+			// justify-content: flex-end;
+			align-items: flex-end;
+			color: white;
+			font-size: 10px;
+			font-family: MetropolisB;
+		
+		}
+				
+		.whyUs__rangeIcon{
+			display: flex;
+			position: absolute;
+			align-items: flex-end;
+			width: 45px;
+			height: 45px;
+			top: 20%;
+		
+		}
+		
+		.whyUs__boxReturn{
+			position: absolute;
+			display: flex;
+			justify-content: center;
+			width: 150px;
+			height: 90px;
+			border: 1px solid rgba($color: white, $alpha: 2);
+			top: 48%;
+			left: 69%;
+		}
+		
+		.whyUs__BoxReturnText{
+			display: flex;
+			// justify-content: flex-end;
+			align-items: flex-end;
+			color: white;
+			font-size: 10px;
+			font-family: MetropolisB;
+		}
+		
+		.whyUs__returnIcon{
+			display: flex;
+			position: absolute;
+			align-items: flex-end;
+			width: 45px;
+			height: 45px;
+			top: 20%;
+		}
+		
+		.button__companyInfo{
+			display: flex;
+			position: absolute;
+			top: 85%;
+			left: 44%;
+			cursor: pointer;
+		}
+		
+		.button__info{
+			width: 130px;
+			height: 30px;
+			border: none;
+			background-color: #f74137;
+			font-family: "MetropolisB";
+			color: white;
+			cursor: pointer;
+			z-index: 5;
+			font-size: 9px;
+		
+		}
+		.whyUs__text{
+			font-size: 13px;
+			left: 6%;
+		}
 	}
 }
 @media screen and (min-width: 1150px) {
@@ -528,6 +882,121 @@
 					font-size: 27px;
 				}
 			}
+		}
+		.whyUs__boxDelivery{
+			position: absolute;
+			display: flex;
+			justify-content: center;
+			width: 200px;
+			height: 120px;
+			border: 1px solid white;
+			left: 18%;
+			top: 45%;
+		
+		}
+		
+		.whyUs__BoxDeliveryText{
+			display: flex;
+			// justify-content: flex-end;
+			align-items: flex-end;
+			color: white;
+			font-size: 15px;
+			font-family: MetropolisB;
+		
+		}
+		
+		.whyUs__deliveryIcon{
+			display: flex;
+			position: absolute;
+			align-items: flex-end;
+			width: 65px;
+			height: 45px;
+			top: 20%;
+		}
+		
+		.whyUs__boxRange{
+			position: absolute;
+			display: flex;
+			justify-content: center;
+			width: 200px;
+			height: 120px;
+			border: 1px solid white;
+			left: 43%;
+			top: 45%;
+		}
+		
+		.whyUs__BoxRangeText{
+			display: flex;
+			// justify-content: flex-end;
+			align-items: flex-end;
+			color: white;
+			font-size: 15px;
+			font-family: MetropolisB;
+		
+		}
+				
+		.whyUs__rangeIcon{
+			display: flex;
+			position: absolute;
+			align-items: flex-end;
+			width: 55px;
+			height: 45px;
+			top: 20%;
+		
+		}
+		
+		.whyUs__boxReturn{
+			position: absolute;
+			display: flex;
+			justify-content: center;
+			width: 200px;
+			height: 120px;
+			border: 1px solid white;
+			top: 45%;
+			left: 69%;
+		}
+		
+		.whyUs__BoxReturnText{
+			display: flex;
+			// justify-content: flex-end;
+			align-items: flex-end;
+			color: white;
+			font-size: 15px;
+			font-family: MetropolisB;
+		}
+		
+		.whyUs__returnIcon{
+			display: flex;
+			position: absolute;
+			align-items: flex-end;
+			width: 55px;
+			height: 45px;
+			top: 20%;
+		}
+		
+		.button__companyInfo{
+			display: flex;
+			position: absolute;
+			top: 85%;
+			left: 44%;
+			cursor: pointer;
+		}
+		
+		.button__info{
+			width: 180px;
+			height: 40px;
+			border: none;
+			background-color: #f74137;
+			font-family: "MetropolisB";
+			color: white;
+			cursor: pointer;
+			z-index: 5;
+			font-size: 9px;
+		
+		}
+		.whyUs__text{
+			font-size: 13px;
+			left: 14%;
 		}
 	}
 }
@@ -658,6 +1127,121 @@
 				height: 70px;
 				width: 60px;
 			}
+		}
+		.whyUs__boxDelivery{
+			position: absolute;
+			display: flex;
+			justify-content: center;
+			width: 230px;
+			height: 130px;
+			border: 1px solid white;
+			left: 18%;
+			top: 45%;
+		
+		}
+		
+		.whyUs__BoxDeliveryText{
+			display: flex;
+			// justify-content: flex-end;
+			align-items: flex-end;
+			color: white;
+			font-size: 15px;
+			font-family: MetropolisB;
+		
+		}
+		
+		.whyUs__deliveryIcon{
+			display: flex;
+			position: absolute;
+			align-items: flex-end;
+			width: 65px;
+			height: 45px;
+			top: 20%;
+		}
+		
+		.whyUs__boxRange{
+			position: absolute;
+			display: flex;
+			justify-content: center;
+			width: 230px;
+			height: 130px;
+			border: 1px solid white;
+			left: 43%;
+			top: 45%;
+		}
+		
+		.whyUs__BoxRangeText{
+			display: flex;
+			// justify-content: flex-end;
+			align-items: flex-end;
+			color: white;
+			font-size: 15px;
+			font-family: MetropolisB;
+		
+		}
+				
+		.whyUs__rangeIcon{
+			display: flex;
+			position: absolute;
+			align-items: flex-end;
+			width: 55px;
+			height: 45px;
+			top: 20%;
+		
+		}
+		
+		.whyUs__boxReturn{
+			position: absolute;
+			display: flex;
+			justify-content: center;
+			width: 230px;
+			height: 130px;
+			border: 1px solid white;
+			top: 45%;
+			left: 69%;
+		}
+		
+		.whyUs__BoxReturnText{
+			display: flex;
+			// justify-content: flex-end;
+			align-items: flex-end;
+			color: white;
+			font-size: 15px;
+			font-family: MetropolisB;
+		}
+		
+		.whyUs__returnIcon{
+			display: flex;
+			position: absolute;
+			align-items: flex-end;
+			width: 55px;
+			height: 45px;
+			top: 20%;
+		}
+		
+		.button__companyInfo{
+			display: flex;
+			position: absolute;
+			top: 85%;
+			left: 43.5%;
+			cursor: pointer;
+		}
+		
+		.button__info{
+			width: 215px;
+			height: 45px;
+			border: none;
+			background-color: #f74137;
+			font-family: "MetropolisB";
+			color: white;
+			cursor: pointer;
+			z-index: 5;
+			font-size: 9px;
+		
+		}
+		.whyUs__text{
+			font-size: 17px;
+			left: 20%;
 		}
 	}
 }

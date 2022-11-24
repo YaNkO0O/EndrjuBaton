@@ -1,17 +1,1094 @@
-/* Error: expected "{".
- *     ,
- * 228 | >>>>>>> ae80e1dcc17f376c9450ae73ff40f943d2c3a17f
- *     |                                                 ^
- *     '
- *   scss\media.scss 228:49  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a     \2577 \a 228 \2502  >>>>>>> ae80e1dcc17f376c9450ae73ff40f943d2c3a17f\d\a     \2502                                                  ^\a     \2575 \a   scss\\media.scss 228:49  root stylesheet';
+@media screen and (min-width: 200px) {
+  .footer {
+    display: none;
+  }
+  .footerMobile {
+    display: flex;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner .banner__two {
+    margin: 5px 0;
+  }
+  .banner .banner__btn {
+    display: none;
+  }
+  .top {
+    display: none;
+  }
+  .header {
+    height: 70px;
+  }
+  .header .nav {
+    display: none;
+  }
+  main .productList .productList__conrainer .productList__box .productList__arrow--right {
+    display: none;
+  }
+  main .productList .productList__conrainer .productList__box .productList__arrow--left {
+    display: none;
+  }
 }
+@media screen and (min-width: 430px) {
+  main .banner .banner__one .banner__headline {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    font-size: 33px;
+  }
+  main .banner .banner__one .banner__subheading {
+    position: absolute;
+    top: 38%;
+    left: 8%;
+    font-size: 33px;
+  }
+  main .banner .banner__two .banner__headline {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    font-size: 33px;
+  }
+  main .banner .banner__two .banner__subheading {
+    position: absolute;
+    top: 38%;
+    left: 8%;
+    font-size: 33px;
+  }
+  main .banner .banner__three .banner__headline {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    font-size: 33px;
+  }
+  main .banner .banner__three .banner__subheading {
+    position: absolute;
+    top: 38%;
+    left: 8%;
+    font-size: 33px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text {
+    top: 10%;
+    width: 200px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__heading {
+    font-size: 17px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__subheading {
+    font-size: 17px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__info {
+    font-size: 11px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__seeMore {
+    top: 80px;
+    height: 16px;
+    font-size: 8px;
+    width: 50%;
+  }
+  main .whyUs__headerText {
+    font-size: 15px;
+    padding: 1px 0 0 0;
+  }
+  main .whyUs__header {
+    padding: 0 0 1px 0;
+  }
+  main .whyUs__headline {
+    height: 88px;
+    padding: 0 0 1px 0;
+  }
+}
+@media screen and (min-width: 600px) {
+  main .banner .banner__one .banner__headline {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    font-size: 41px;
+  }
+  main .banner .banner__one .banner__subheading {
+    position: absolute;
+    top: 38%;
+    left: 8%;
+    font-size: 41px;
+  }
+  main .banner .banner__two .banner__headline {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    font-size: 43px;
+  }
+  main .banner .banner__two .banner__subheading {
+    position: absolute;
+    top: 38%;
+    left: 8%;
+    font-size: 43px;
+  }
+  main .banner .banner__three .banner__headline {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    font-size: 43px;
+  }
+  main .banner .banner__three .banner__subheading {
+    position: absolute;
+    top: 38%;
+    left: 8%;
+    font-size: 43px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text {
+    top: 20%;
+    width: 300px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__heading {
+    font-size: 22px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__subheading {
+    font-size: 22px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__info {
+    font-size: 14px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__seeMore {
+    top: 100px;
+    height: 24px;
+    font-size: 12px;
+    width: 50%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    display: inline-flex;
+  }
+  .footerMobile {
+    display: none;
+  }
+  .footerMobile .footerMobile__title {
+    display: none;
+  }
+  .banner {
+    display: flex;
+    flex-direction: row;
+  }
+  .banner .banner__two {
+    margin: 0 5px;
+  }
+  .mobileNav {
+    display: none;
+  }
+  .top {
+    display: flex;
+  }
+  .top .header__logoMobile {
+    display: none;
+  }
+  .header {
+    height: 140px;
+  }
+  .header .header__logo {
+    display: block;
+  }
+  .header .header__logoMobile {
+    display: none;
+  }
+  .header .nav {
+    display: flex;
+  }
+  .hamburger {
+    display: none;
+  }
+  main .banner .banner__one .banner__headline {
+    position: absolute;
+    top: 13%;
+    left: 4%;
+    font-size: 19px;
+  }
+  main .banner .banner__one .banner__subheading {
+    position: absolute;
+    top: 28%;
+    left: 4%;
+    font-size: 19px;
+  }
+  main .banner .banner__two .banner__headline {
+    position: absolute;
+    top: 13%;
+    left: 4%;
+    font-size: 19px;
+  }
+  main .banner .banner__two .banner__subheading {
+    position: absolute;
+    top: 28%;
+    left: 4%;
+    font-size: 20px;
+  }
+  main .banner .banner__three .banner__headline {
+    position: absolute;
+    top: 13%;
+    left: 4%;
+    font-size: 19px;
+  }
+  main .banner .banner__three .banner__subheading {
+    position: absolute;
+    top: 28%;
+    left: 4%;
+    font-size: 20px;
+  }
+  main .banner .banner__btn {
+    position: absolute;
+    display: block;
+    top: 68%;
+    width: 60%;
+    height: 40px;
+    font-size: 12px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text {
+    top: 5%;
+    width: 300px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__heading {
+    font-size: 22px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__subheading {
+    font-size: 22px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__info {
+    font-size: 16px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__seeMore {
+    top: 120px;
+    height: 28px;
+    font-size: 14px;
+    width: 50%;
+  }
+  main .whyUs__boxDelivery {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    height: 80px;
+    border: 1px solid white;
+    left: 18%;
+    top: 48%;
+  }
+  main .whyUs__BoxDeliveryText {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 8px;
+    font-family: MetropolisB;
+  }
+  main .whyUs__deliveryIcon {
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+    width: 35px;
+    height: 30px;
+    top: 20%;
+  }
+  main .whyUs__boxRange {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    height: 80px;
+    border: 1px solid white;
+    left: 43%;
+    top: 48%;
+  }
+  main .whyUs__BoxRangeText {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 8px;
+    font-family: MetropolisB;
+  }
+  main .whyUs__rangeIcon {
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+    width: 35px;
+    height: 30px;
+    top: 20%;
+  }
+  main .whyUs__boxReturn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    height: 80px;
+    border: 1px solid white;
+    top: 48%;
+    left: 69%;
+  }
+  main .whyUs__BoxReturnText {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 8px;
+    font-family: MetropolisB;
+  }
+  main .whyUs__returnIcon {
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+    width: 35px;
+    height: 30px;
+    top: 20%;
+  }
+  main .button__companyInfo {
+    display: flex;
+    position: absolute;
+    top: 85%;
+    left: 43.5%;
+    cursor: pointer;
+  }
+  main .button__info {
+    width: 110px;
+    height: 25px;
+    border: none;
+    background-color: #f74137;
+    font-family: "MetropolisB";
+    color: white;
+    cursor: pointer;
+    z-index: 5;
+    font-size: 8px;
+  }
+  main .whyUs__text {
+    font-size: 11px;
+    left: 3%;
+    top: 30%;
+  }
+}
+@media screen and (min-width: 850px) {
+  .header .top .top__row {
+    left: 39%;
+  }
+  main .banner .banner__one .banner__headline {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    font-size: 19px;
+  }
+  main .banner .banner__one .banner__subheading {
+    position: absolute;
+    top: 38%;
+    left: 8%;
+    font-size: 20px;
+  }
+  main .banner .banner__two .banner__headline {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    font-size: 20px;
+  }
+  main .banner .banner__two .banner__subheading {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    font-size: 20px;
+  }
+  main .banner .banner__three .banner__headline {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    font-size: 20px;
+  }
+  main .banner .banner__three .banner__subheading {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    font-size: 20px;
+  }
+  main .whyUs__boxDelivery {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    height: 80px;
+    border: 1px solid white;
+    left: 18%;
+    top: 48%;
+  }
+  main .whyUs__BoxDeliveryText {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 8px;
+    font-family: MetropolisB;
+  }
+  main .whyUs__deliveryIcon {
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+    width: 35px;
+    height: 30px;
+    top: 20%;
+  }
+  main .whyUs__boxRange {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    height: 80px;
+    border: 1px solid white;
+    left: 43%;
+    top: 48%;
+  }
+  main .whyUs__BoxRangeText {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 8px;
+    font-family: MetropolisB;
+  }
+  main .whyUs__rangeIcon {
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+    width: 35px;
+    height: 30px;
+    top: 20%;
+  }
+  main .whyUs__boxReturn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    height: 80px;
+    border: 1px solid white;
+    top: 48%;
+    left: 69%;
+  }
+  main .whyUs__BoxReturnText {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 8px;
+    font-family: MetropolisB;
+  }
+  main .whyUs__returnIcon {
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+    width: 35px;
+    height: 30px;
+    top: 20%;
+  }
+  main .button__companyInfo {
+    display: flex;
+    position: absolute;
+    top: 85%;
+    left: 43.5%;
+    cursor: pointer;
+  }
+  main .button__info {
+    width: 110px;
+    height: 25px;
+    border: none;
+    background-color: #f74137;
+    font-family: "MetropolisB";
+    color: white;
+    cursor: pointer;
+    z-index: 5;
+    font-size: 8px;
+  }
+  main .whyUs__text {
+    font-size: 11px;
+    left: 3%;
+    top: 30%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .header .top .top__row {
+    left: 40%;
+    width: 400px;
+  }
+  .header .top .top__row .top__contact span {
+    font-size: 14px;
+  }
+  .header .top .top__row .top__favourite span {
+    font-size: 14px;
+  }
+  .header .top .top__row .top__account {
+    left: 60%;
+  }
+  .header .top .top__row .top__account span {
+    font-size: 14px;
+  }
+  main .banner .banner__one .banner__headline {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    font-size: 23px;
+  }
+  main .banner .banner__one .banner__subheading {
+    position: absolute;
+    top: 38%;
+    left: 8%;
+    font-size: 23px;
+  }
+  main .banner .banner__two .banner__headline {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    font-size: 23px;
+  }
+  main .banner .banner__two .banner__subheading {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    font-size: 23px;
+  }
+  main .banner .banner__three .banner__headline {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    font-size: 23px;
+  }
+  main .banner .banner__three .banner__subheading {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    font-size: 23px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text {
+    top: 10%;
+    width: 300px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__heading {
+    font-size: 30px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__subheading {
+    font-size: 30px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__info {
+    font-size: 18px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__seeMore {
+    top: 150px;
+    height: 32px;
+    font-size: 16px;
+    width: 50%;
+  }
+  main .homeSlider .homeSlider__next {
+    font-size: 18px;
+    width: 40px;
+  }
+  main .homeSlider .homeSlider__prev {
+    font-size: 18px;
+    width: 40px;
+  }
+  main .whyUs__header {
+    font-size: 18px;
+  }
+  main .whyUs__text {
+    font-size: 13px;
+    left: 5%;
+  }
+  main .whyUs__boxDelivery {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 90px;
+    border: 1px solid white;
+    left: 18%;
+    top: 48%;
+  }
+  main .whyUs__BoxDeliveryText {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 10px;
+    font-family: MetropolisB;
+  }
+  main .whyUs__deliveryIcon {
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+    width: 45px;
+    height: 40px;
+    top: 20%;
+  }
+  main .whyUs__boxRange {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 90px;
+    border: 1px solid white;
+    left: 43%;
+    top: 48%;
+  }
+  main .whyUs__BoxRangeText {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 10px;
+    font-family: MetropolisB;
+  }
+  main .whyUs__rangeIcon {
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+    width: 45px;
+    height: 45px;
+    top: 20%;
+  }
+  main .whyUs__boxReturn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 90px;
+    border: 1px solid white;
+    top: 48%;
+    left: 69%;
+  }
+  main .whyUs__BoxReturnText {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 10px;
+    font-family: MetropolisB;
+  }
+  main .whyUs__returnIcon {
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+    width: 45px;
+    height: 45px;
+    top: 20%;
+  }
+  main .button__companyInfo {
+    display: flex;
+    position: absolute;
+    top: 85%;
+    left: 44%;
+    cursor: pointer;
+  }
+  main .button__info {
+    width: 130px;
+    height: 30px;
+    border: none;
+    background-color: #f74137;
+    font-family: "MetropolisB";
+    color: white;
+    cursor: pointer;
+    z-index: 5;
+    font-size: 9px;
+  }
+  main .whyUs__text {
+    font-size: 13px;
+    left: 6%;
+  }
+}
+@media screen and (min-width: 1150px) {
+  .header .top .top__row {
+    left: 44%;
+  }
+  main .banner .banner__one .banner__headline {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    font-size: 27px;
+  }
+  main .banner .banner__one .banner__subheading {
+    position: absolute;
+    top: 38%;
+    left: 8%;
+    font-size: 27px;
+  }
+  main .banner .banner__two .banner__headline {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    font-size: 27px;
+  }
+  main .banner .banner__two .banner__subheading {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    font-size: 27px;
+  }
+  main .banner .banner__three .banner__headline {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    font-size: 27px;
+  }
+  main .banner .banner__three .banner__subheading {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    font-size: 27px;
+  }
+  main .whyUs__boxDelivery {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 120px;
+    border: 1px solid white;
+    left: 18%;
+    top: 45%;
+  }
+  main .whyUs__BoxDeliveryText {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 15px;
+    font-family: MetropolisB;
+  }
+  main .whyUs__deliveryIcon {
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+    width: 65px;
+    height: 45px;
+    top: 20%;
+  }
+  main .whyUs__boxRange {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 120px;
+    border: 1px solid white;
+    left: 43%;
+    top: 45%;
+  }
+  main .whyUs__BoxRangeText {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 15px;
+    font-family: MetropolisB;
+  }
+  main .whyUs__rangeIcon {
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+    width: 55px;
+    height: 45px;
+    top: 20%;
+  }
+  main .whyUs__boxReturn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 120px;
+    border: 1px solid white;
+    top: 45%;
+    left: 69%;
+  }
+  main .whyUs__BoxReturnText {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 15px;
+    font-family: MetropolisB;
+  }
+  main .whyUs__returnIcon {
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+    width: 55px;
+    height: 45px;
+    top: 20%;
+  }
+  main .button__companyInfo {
+    display: flex;
+    position: absolute;
+    top: 85%;
+    left: 44%;
+    cursor: pointer;
+  }
+  main .button__info {
+    width: 180px;
+    height: 40px;
+    border: none;
+    background-color: #f74137;
+    font-family: "MetropolisB";
+    color: white;
+    cursor: pointer;
+    z-index: 5;
+    font-size: 9px;
+  }
+  main .whyUs__text {
+    font-size: 13px;
+    left: 14%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .header .top .top__row {
+    left: 58%;
+  }
+  .header .top .top__shoppingCart {
+    height: 55px;
+    width: 290px;
+  }
+  .header .top .top__shoppingCart .shoppingCart__bg {
+    top: 7.5px;
+    height: 40px;
+    width: 75px;
+  }
+  .header .top .top__shoppingCart .shoppingCart__bg .shoppingCart__cartIcon {
+    left: 17px;
+    font-size: 34px;
+  }
+  .header .top .top__shoppingCart .shoppingCart__bg .shoppingCart__cartIcon .shoppingCart__amountBox {
+    width: 26px;
+    height: 14px;
+  }
+  .header .top .top__shoppingCart .shoppingCart__bg .shoppingCart__cartIcon .shoppingCart__amountBox .amountBox__count {
+    left: 3.7px;
+    bottom: -10px;
+    font-size: 10px;
+    color: #fff;
+  }
+  .header .top .top__shoppingCart span {
+    left: 100px;
+    top: 14px;
+    font-size: 14px;
+  }
+  .header .top .top__shoppingCart .shoppingCart__arrowBg {
+    height: 55px;
+  }
+  .header .top .top__shoppingCart .shoppingCart__arrowIcon {
+    top: 17px;
+  }
+  main .banner .banner__one .banner__headline {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    font-size: 33px;
+  }
+  main .banner .banner__one .banner__subheading {
+    position: absolute;
+    top: 38%;
+    left: 8%;
+    font-size: 33px;
+  }
+  main .banner .banner__two .banner__headline {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    font-size: 33px;
+  }
+  main .banner .banner__two .banner__subheading {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    font-size: 33px;
+  }
+  main .banner .banner__three .banner__headline {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    font-size: 33px;
+  }
+  main .banner .banner__three .banner__subheading {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    font-size: 33px;
+  }
+  main .banner .banner__btn {
+    position: absolute;
+    display: block;
+    top: 68%;
+    width: 50%;
+    height: 60px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text {
+    top: 10%;
+    width: 400px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__heading {
+    font-size: 40px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__subheading {
+    font-size: 40px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__info {
+    font-size: 20px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__seeMore {
+    top: 180px;
+    height: 36px;
+    font-size: 18px;
+    width: 50%;
+  }
+  main .homeSlider .homeSlider__next {
+    font-size: 24px;
+    height: 70px;
+    width: 60px;
+  }
+  main .homeSlider .homeSlider__prev {
+    font-size: 24px;
+    height: 70px;
+    width: 60px;
+  }
+  main .whyUs__boxDelivery {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 230px;
+    height: 130px;
+    border: 1px solid white;
+    left: 18%;
+    top: 45%;
+  }
+  main .whyUs__BoxDeliveryText {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 15px;
+    font-family: MetropolisB;
+  }
+  main .whyUs__deliveryIcon {
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+    width: 65px;
+    height: 45px;
+    top: 20%;
+  }
+  main .whyUs__boxRange {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 230px;
+    height: 130px;
+    border: 1px solid white;
+    left: 43%;
+    top: 45%;
+  }
+  main .whyUs__BoxRangeText {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 15px;
+    font-family: MetropolisB;
+  }
+  main .whyUs__rangeIcon {
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+    width: 55px;
+    height: 45px;
+    top: 20%;
+  }
+  main .whyUs__boxReturn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 230px;
+    height: 130px;
+    border: 1px solid white;
+    top: 45%;
+    left: 69%;
+  }
+  main .whyUs__BoxReturnText {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 15px;
+    font-family: MetropolisB;
+  }
+  main .whyUs__returnIcon {
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+    width: 55px;
+    height: 45px;
+    top: 20%;
+  }
+  main .button__companyInfo {
+    display: flex;
+    position: absolute;
+    top: 85%;
+    left: 43.5%;
+    cursor: pointer;
+  }
+  main .button__info {
+    width: 215px;
+    height: 45px;
+    border: none;
+    background-color: #f74137;
+    font-family: "MetropolisB";
+    color: white;
+    cursor: pointer;
+    z-index: 5;
+    font-size: 9px;
+  }
+  main .whyUs__text {
+    font-size: 17px;
+    left: 20%;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .header .top .top__row {
+    left: 64%;
+  }
+  main .banner .banner__one .banner__headline {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    font-size: 44px;
+  }
+  main .banner .banner__one .banner__subheading {
+    position: absolute;
+    top: 38%;
+    left: 8%;
+    font-size: 44px;
+  }
+  main .banner .banner__two .banner__headline {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    font-size: 44px;
+  }
+  main .banner .banner__two .banner__subheading {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    font-size: 44px;
+  }
+  main .banner .banner__three .banner__headline {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    font-size: 44px;
+  }
+  main .banner .banner__three .banner__subheading {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    font-size: 44px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text {
+    top: 15%;
+    width: 470px;
+    height: 300px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__heading {
+    font-size: 50px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__subheading {
+    font-size: 50px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__info {
+    font-size: 26px;
+  }
+  main .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__seeMore {
+    top: 220px;
+    height: 48px;
+    font-size: 24px;
+    width: 50%;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

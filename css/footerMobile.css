@@ -1,37 +1,45 @@
 .footerMobile {
   max-width: 1920px;
-  margin-top: 20px;
   flex-direction: column;
-  align-items: start;
   justify-content: center;
   width: 100%;
-  height: 600px;
+  height: 100%;
   font-size: 10px;
   background-color: #393e40;
 }
-.footerMobile .footerMobile__title {
+.footerMobile .footerMobile__box {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 100%;
-  height: 50%;
   text-transform: uppercase;
   color: #fff;
   font-family: "MetropolisB";
   border-bottom: 1px solid #E1E2E8;
 }
-.footerMobile .footerMobile__title .mobileList {
-  display: flex;
-  flex-direction: column;
-  list-style-type: none;
+.footerMobile .footerMobile__box .footerMobile__title {
+  font-size: 14px;
+  cursor: pointer;
 }
-.footerMobile .footerMobile__title .mobileList a {
+.footerMobile .footerMobile__box .footerMobile__list {
+  display: none;
+  font-size: 10px;
+  list-style-type: none;
+  height: 100%;
+  padding: 0;
+}
+.footerMobile .footerMobile__box .footerMobile__list a {
   text-decoration: none;
   color: #fff;
 }
-.footerMobile .footerMobile__title .mobileList .mobileList__item {
-  display: flex;
-  padding: 5px 0;
+.footerMobile .footerMobile__box .footerMobile__list .list__item {
+  font-family: "MetropolisB";
+  padding: 8px 0;
+}
+
+.showingList {
+  display: block;
 }
 
 /*# sourceMappingURL=footerMobile.css.map */

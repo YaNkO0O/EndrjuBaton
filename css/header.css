@@ -3,23 +3,17 @@
   max-width: 1920px;
   width: 100%;
   height: 140px;
+  padding: 0;
   margin: 0 auto;
   font-family: "MetropolisB";
-}
-.header .header__logo {
-  display: none;
-  position: absolute;
-  top: 3px;
-  left: 30px;
-  width: 249px;
-  height: 58px;
-  padding: 5px;
 }
 .header .header__logoMobile {
   display: block;
   text-align: center;
 }
 .header .top {
+  display: none;
+  align-items: center;
   position: relative;
   height: 70px;
   width: 100%;
@@ -27,24 +21,30 @@
   text-transform: uppercase;
   border-bottom: 1px solid #E1E2E8;
 }
+.header .top .header__logo {
+  display: none;
+}
+.header .top .header__logo img {
+  display: flex;
+  top: 10px;
+  width: 150px;
+}
 .header .top .top__row {
   position: relative;
-  left: 34%;
+  left: 5%;
   width: 300px;
   height: 50px;
 }
 .header .top .top__row .top__contact {
   position: absolute;
   display: inline-block;
-  top: 25px;
+  top: 20px;
   color: #000;
   left: 0;
-  bottom: 0;
   transition: color 0.3s;
 }
 .header .top .top__row .top__contact span {
-  top: 0;
-  font-size: 12px;
+  font-size: 10px;
 }
 .header .top .top__row .top__contact:hover {
   color: #9bcb3b;
@@ -52,15 +52,13 @@
 .header .top .top__row .top__favourite {
   position: absolute;
   display: inline-block;
-  top: 25px;
+  top: 20px;
   color: #000;
   left: 30%;
-  bottom: 0;
   transition: color 0.3s;
 }
 .header .top .top__row .top__favourite span {
-  top: 0;
-  font-size: 12px;
+  font-size: 10px;
 }
 .header .top .top__row .top__favourite:hover {
   color: #9bcb3b;
@@ -68,30 +66,31 @@
 .header .top .top__row .top__account {
   position: absolute;
   display: inline-block;
-  top: 25px;
+  top: 20px;
   color: #000;
   left: 61%;
-  bottom: 0;
   transition: color 0.3s;
 }
 .header .top .top__row .top__account span {
-  top: 0;
-  font-size: 12px;
+  font-size: 10px;
 }
 .header .top .top__row .top__account:hover {
   color: #9bcb3b;
 }
 .header .top .top__shoppingCart {
   position: absolute;
-  top: 7px;
-  right: 0;
+  top: 12.5px;
+  right: 30px;
   height: 45px;
-  width: 255px;
+  width: 245px;
   border: 1px solid #e1e2e8;
   color: #000;
 }
 .header .top .top__shoppingCart .shoppingCart__bg {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 3.5px;
   left: 0;
   height: 35px;
@@ -99,7 +98,6 @@
   border-right: 1px solid #e1e2e8;
 }
 .header .top .top__shoppingCart .shoppingCart__bg .shoppingCart__cartIcon {
-  position: absolute;
   display: inline-block;
   top: 3px;
   left: 12px;
@@ -108,18 +106,17 @@
 }
 .header .top .top__shoppingCart .shoppingCart__bg .shoppingCart__cartIcon .shoppingCart__amountBox {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 3px;
   left: 20px;
   width: 22px;
   height: 12px;
   border-radius: 3px;
-  padding: 2px;
   background-color: #9BCB3B;
 }
 .header .top .top__shoppingCart .shoppingCart__bg .shoppingCart__cartIcon .shoppingCart__amountBox .amountBox__count {
-  position: absolute;
-  left: 3.7px;
-  bottom: -6px;
   font-family: "MetropolisB";
   font-size: 8px;
   color: #fff;
@@ -136,19 +133,19 @@
   top: 0;
 }
 .header .top .top__shoppingCart .shoppingCart__arrowBg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: -1px;
-  right: 0;
-  width: 35px;
+  right: -1px;
+  width: 30px;
   height: 45px;
   background-color: #9bcb3b;
 }
 .header .top .top__shoppingCart .shoppingCart__arrowIcon {
-  position: absolute;
-  right: 6px;
-  top: 13px;
   color: #fff;
-  font-size: 20px;
+  font-size: 8px;
 }
 .header a {
   text-decoration: none;
@@ -156,20 +153,19 @@
 }
 .header .icon {
   position: absolute;
-  bottom: 5px;
-  left: -25px;
+  top: -3px;
+  left: -30px;
   font-size: 22px;
   display: inline-block;
 }
 .header .nav {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   text-align: center;
   top: 70px;
   width: 100%;
   height: 50px;
-  margin: 0 5px;
   text-transform: uppercase;
   color: #000;
   border-bottom: 1px solid #E1E2E8;

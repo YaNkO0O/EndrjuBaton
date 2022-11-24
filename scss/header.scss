@@ -1,4 +1,4 @@
-@use "./_mixins" as size;
+@use "./_mixins" as mixin;
 @use "./_variables" as color;
 
 .header {
@@ -6,15 +6,8 @@
 	max-width: 1920px;
 	width: 100%;
 	height: 140px;
-	.header__logo {
-		display: none;
-		position: absolute;
-		top: 3px;
-		left: 30px;
-		width: 249px;
-		height: 58px;
-		padding: 5px;
-	}
+	padding: 0;
+
 	.header__logoMobile {
 		display: block;
 		text-align: center;
@@ -22,51 +15,55 @@
 	margin: 0 auto;
 	font-family: "MetropolisB";
 	.top {
+		display: none;
+		align-items: center;
 		position: relative;
 		height: 70px;
 		width: 100%;
 		margin-top: 10px;
 		text-transform: uppercase;
 		border-bottom: color.$border;
+		.header__logo {
+			display: none;
+			img {
+				display: flex;
+				top: 10px;
+				width: 150px;
+			}
+		}
 		.top__row {
 			position: relative;
-			left: 34%;
+			left: 5%;
 			width: 300px;
 			height: 50px;
 			.top__contact {
-				@include size.size;
+				@include mixin.size;
 				left: 0;
-				bottom: 0;
 				transition: color 0.3s;
 				span {
-					top: 0;
-					font-size: 12px;
+					font-size: 10px;
 				}
 			}
 			.top__contact:hover {
 				color: #9bcb3b;
 			}
 			.top__favourite {
-				@include size.size;
+				@include mixin.size;
 				left: 30%;
-				bottom: 0;
 				transition: color 0.3s;
 				span {
-					top: 0;
-					font-size: 12px;
+					font-size: 10px;
 				}
 			}
 			.top__favourite:hover {
 				color: #9bcb3b;
 			}
 			.top__account {
-				@include size.size;
+				@include mixin.size;
 				left: 61%;
-				bottom: 0;
 				transition: color 0.3s;
 				span {
-					top: 0;
-					font-size: 12px;
+					font-size: 10px;
 				}
 			}
 			.top__account:hover {
@@ -75,21 +72,21 @@
 		}
 		.top__shoppingCart {
 			position: absolute;
-			top: 7px;
-			right: 0;
+			top: 12.5px;
+			right: 30px;
 			height: 45px;
-			width: 255px;
+			width: 245px;
 			border: 1px solid #e1e2e8;
 			color: #000;
 			.shoppingCart__bg {
 				position: absolute;
+				@include mixin.centering;
 				top: 3.5px;
 				left: 0;
 				height: 35px;
 				width: 60px;
 				border-right: 1px solid #e1e2e8;
 				.shoppingCart__cartIcon {
-					position: absolute;
 					display: inline-block;
 					top: 3px;
 					left: 12px;
@@ -97,17 +94,14 @@
 					font-size: 30px;
 					.shoppingCart__amountBox {
 						position: absolute;
+						@include mixin.centering;
 						top: 3px;
 						left: 20px;
 						width: 22px;
 						height: 12px;
 						border-radius: 3px;
-						padding: 2px;
 						background-color: color.$secondary;
 						.amountBox__count {
-							position: absolute;
-							left: 3.7px;
-							bottom: -6px;
 							font-family: "MetropolisB";
 							font-size: 8px;
 							color: #fff;
@@ -127,19 +121,17 @@
 				}
 			}
 			.shoppingCart__arrowBg {
+				@include mixin.centering;
 				position: absolute;
 				top: -1px;
-				right: 0;
-				width: 35px;
+				right: -1px;
+				width: 30px;
 				height: 45px;
 				background-color: #9bcb3b;
 			}
 			.shoppingCart__arrowIcon {
-				position: absolute;
-				right: 6px;
-				top: 13px;
 				color: #fff;
-				font-size: 20px;
+				font-size: 8px;
 			}
 		}
 	}
@@ -150,8 +142,8 @@
 
 	.icon {
 		position: absolute;
-		bottom: 5px;
-		left: -25px;
+		top: -3px;
+		left: -30px;
 		font-size: 22px;
 		display: inline-block;
 	}
@@ -159,12 +151,11 @@
 	.nav {
 		display: flex;
 		align-items: center;
-		justify-content: space-evenly;
+		justify-content: space-between;
 		text-align: center;
 		top: 70px;
 		width: 100%;
 		height: 50px;
-		margin: 0 5px;
 		text-transform: uppercase;
 		color: #000;
 		border-bottom: color.$border;

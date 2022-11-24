@@ -25,15 +25,15 @@
 		font-weight: bold;
 		border-bottom: color.$border;
 	}
-	a {
-		text-decoration: none;
-		color: #000;
-		li {
-			display: flex;
-			align-items: center;
-			text-transform: uppercase;
-			padding: 25px;
-			border-bottom: color.$border;
+	li {
+		display: flex;
+		align-items: center;
+		text-transform: uppercase;
+		padding: 25px;
+		border-bottom: color.$border;
+		a {
+			text-decoration: none;
+			color: #000;
 		}
 	}
 	ul {

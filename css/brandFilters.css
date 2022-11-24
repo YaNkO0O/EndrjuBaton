@@ -1,0 +1,35 @@
+.filters__brand {
+  display: flex;
+  justify-content: flex-start;
+}
+.filters__brand .filters__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 472px;
+  width: 300px;
+  border: 1px solid #E1E2E8;
+  background-color: aliceblue;
+}
+.filters__brand .filters__container .filters__headline {
+  display: flex;
+  height: 60px;
+  font-family: "MetropolisB";
+  border-bottom: 1px solid #E1E2E8;
+}
+.filters__brand .filters__container .filters__brandList {
+  display: flex;
+  flex-direction: column;
+  height: 412px;
+  justify-content: space-between;
+  text-transform: uppercase;
+  padding: 10px 10px;
+}
+.filters__brand .filters__container .filters__brandList .brandList__box {
+  border-bottom: 1px solid #E1E2E8;
+}
+.filters__brand .filters__container .filters__brandList .brandList__box .brandList__text {
+  font-family: "Metropolis";
+}
+
+/*# sourceMappingURL=brandFilters.css.map */

@@ -24,10 +24,10 @@
   .header .nav {
     display: none;
   }
-  main .productList .productList__conrainer .productList__box .productList__arrow--right {
+  main .productList .productList__container .productList__box .productList__arrow--right {
     display: none;
   }
-  main .productList .productList__conrainer .productList__box .productList__arrow--left {
+  main .productList .productList__container .productList__box .productList__arrow--left {
     display: none;
   }
 }
@@ -176,16 +176,13 @@
   .mobileNav {
     display: none;
   }
-  .top {
-    display: flex;
-  }
-  .top .header__logoMobile {
-    display: none;
-  }
   .header {
     height: 140px;
   }
-  .header .header__logo {
+  .header .top {
+    display: flex;
+  }
+  .header .top .header__logo {
     display: block;
   }
   .header .header__logoMobile {
@@ -256,8 +253,8 @@
   }
   main .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__seeMore {
     top: 120px;
-    height: 28px;
-    font-size: 14px;
+    height: 32px;
+    font-size: 11px;
     width: 50%;
   }
   main .whyUs__boxDelivery {
@@ -358,10 +355,25 @@
     left: 3%;
     top: 30%;
   }
+  main .whyUs__text .productList .productList__container .productList__box .productList__slider {
+    overflow-x: hidden;
+  }
+  main .whyUs__text .productList .productList__container .productList__box .productList__arrow--right {
+    display: flex;
+  }
+  main .whyUs__text .productList .productList__container .productList__box .productList__arrow--left {
+    display: flex;
+  }
+  main .whyUs__text .productList .productList__container .productList__box .productList__arrows .productList__arrow--left {
+    top: 36%;
+  }
+  main .whyUs__text .productList .productList__container .productList__box .productList__arrows .productList__arrow--right {
+    top: 36%;
+  }
 }
 @media screen and (min-width: 850px) {
   .header .top .top__row {
-    left: 39%;
+    left: 15%;
   }
   main .banner .banner__one .banner__headline {
     position: absolute;
@@ -497,10 +509,16 @@
     left: 3%;
     top: 30%;
   }
+  main .whyUs__text .productList .productList__container .productList__box .productList__arrows .productList__arrow--left {
+    top: 36%;
+  }
+  main .whyUs__text .productList .productList__container .productList__box .productList__arrows .productList__arrow--right {
+    top: 36%;
+  }
 }
 @media screen and (min-width: 992px) {
   .header .top .top__row {
-    left: 40%;
+    left: 16%;
     width: 400px;
   }
   .header .top .top__row .top__contact span {
@@ -514,6 +532,9 @@
   }
   .header .top .top__row .top__account span {
     font-size: 14px;
+  }
+  .header .top .header__logo img {
+    width: 180px;
   }
   main .banner .banner__one .banner__headline {
     position: absolute;
@@ -566,9 +587,9 @@
   }
   main .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__seeMore {
     top: 150px;
-    height: 32px;
-    font-size: 16px;
-    width: 50%;
+    height: 36px;
+    font-size: 13px;
+    width: 55%;
   }
   main .homeSlider .homeSlider__next {
     font-size: 18px;
@@ -682,10 +703,19 @@
     font-size: 13px;
     left: 6%;
   }
+  main .whyUs__text .productList .productList__container .productList__box .productList__arrows .productList__arrow--left {
+    top: 36%;
+  }
+  main .whyUs__text .productList .productList__container .productList__box .productList__arrows .productList__arrow--right {
+    top: 36%;
+  }
 }
 @media screen and (min-width: 1150px) {
   .header .top .top__row {
-    left: 44%;
+    left: 24%;
+  }
+  .header .top .header__logo img {
+    width: 230px;
   }
   main .banner .banner__one .banner__headline {
     position: absolute;
@@ -820,12 +850,22 @@
     font-size: 13px;
     left: 14%;
   }
+  main .whyUs__text .productList .productList__container .productList__box .productList__arrows .productList__arrow--left {
+    top: 36%;
+  }
+  main .whyUs__text .productList .productList__container .productList__box .productList__arrows .productList__arrow--right {
+    top: 36%;
+  }
 }
 @media screen and (min-width: 1400px) {
   .header .top .top__row {
-    left: 58%;
+    left: 33%;
+  }
+  .header .top .header__logo img {
+    width: 250px;
   }
   .header .top .top__shoppingCart {
+    top: 5px;
     height: 55px;
     width: 290px;
   }
@@ -855,9 +895,6 @@
   }
   .header .top .top__shoppingCart .shoppingCart__arrowBg {
     height: 55px;
-  }
-  .header .top .top__shoppingCart .shoppingCart__arrowIcon {
-    top: 17px;
   }
   main .banner .banner__one .banner__headline {
     position: absolute;
@@ -917,9 +954,9 @@
   }
   main .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__seeMore {
     top: 180px;
-    height: 36px;
-    font-size: 18px;
-    width: 50%;
+    height: 44px;
+    font-size: 16px;
+    width: 56%;
   }
   main .homeSlider .homeSlider__next {
     font-size: 24px;
@@ -1028,10 +1065,25 @@
     font-size: 17px;
     left: 20%;
   }
+  main .whyUs__text .productList .productList__container .productList__box .productList__arrows .productList__arrow--left {
+    top: 36%;
+  }
+  main .whyUs__text .productList .productList__container .productList__box .productList__arrows .productList__arrow--right {
+    top: 36%;
+  }
+}
+@media screen and (min-width: 1400px) and (min-width: 1470px) {
+  .productList .productList__container .productList__box .productList__arrows .productList__arrow--left {
+    top: 38%;
+  }
+  .productList .productList__container .productList__box .productList__arrows .productList__arrow--right {
+    top: 38%;
+  }
 }
 @media screen and (min-width: 1700px) {
   .header .top .top__row {
-    left: 64%;
+    left: 40%;
+    width: 550px;
   }
   main .banner .banner__one .banner__headline {
     position: absolute;
@@ -1085,9 +1137,9 @@
   }
   main .homeSlider .homeSlider__photo .homeSlider__text .homeSlider__seeMore {
     top: 220px;
-    height: 48px;
-    font-size: 24px;
-    width: 50%;
+    height: 55px;
+    font-size: 20px;
+    width: 58%;
   }
 }
 

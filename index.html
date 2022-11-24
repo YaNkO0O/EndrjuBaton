@@ -25,13 +25,13 @@
 
 <body>
     <header class="header">
-        <div class="header__logo">
-            <img src="./img/logo.png" alt="Elhurt PLUS">
-        </div>
         <div class="header__logoMobile">
             <img src="./img/logo.png" alt="Elhurt PLUS">
         </div>
-        <div class="header__top top">
+        <div class="header__top top container">
+            <div class="header__logo">
+                <img src="./img/logo.png" alt="Elhurt PLUS">
+            </div>
             <div class="top__row">
                 <a href="javascript:void(0)">
                     <div class="top__contact contact">
@@ -48,33 +48,36 @@
                 <a href="javascript:void(0)">
                     <div class="top__account account">
                         <i class="account__icon icon icon-user"></i>
-                        <span>konto</span>
+                        <span>moje konto</span>
                     </div>
                 </a>
             </div>
+
             <a href="javascript:void(0)">
                 <div class="top__shoppingCart shoppingCart">
                     <div class="shoppingCart__bg">
-                        <div class="shoppingCart__cartIcon icon "><i class="icon-cart">
-                                <div class="shoppingCart__amountBox amountBox">
-                                    <p class="amountBox__count">342</p>
-                                </div>
-                            </i></div>
-
+                        <div class="shoppingCart__cartIcon icon ">
+                            <div class="shoppingCart__amountBox amountBox">
+                                <p class="amountBox__count">342</p>
+                            </div>
+                            <i class="icon-cart"></i>
+                        </div>
                     </div>
                     <span>twój koszyk
                         <p>3456,00 zł</p>
                     </span>
                     <div class="shoppingCart__arrowBg">
+                        <div class="shoppingCart__arrowIcon">
+                            <i class="icon-arrow_right"></i>
+                        </div>
+                    </div>
 
-                    </div>
-                    <div class="shoppingCart__arrowIcon"><i class="icon-arrow_right"></i>
-                    </div>
                 </div>
             </a>
+
         </div>
 
-        <nav class="nav">
+        <nav class="nav container">
             <a href="javascript:void(0)">
                 <div class="nav__item">
                     <p>źródła światła</p>
@@ -127,18 +130,26 @@
         <section class="hamburger">
             <div class="hamburger__title">elhurt</div>
             <ul>
-                <a href="javascript:void(0)">
-                    <li>Kontakt</li>
-                </a>
-                <a href="javascript:void(0)">
-                    <li>Ulubione</li>
-                </a>
-                <a href="javascript:void(0)">
-                    <li>Moje konto</li>
-                </a>
-                <a href="javascript:void(0)">
-                    <li>Koszyk</li>
-                </a>
+                <li>
+                    <a href="javascript:void(0)">
+                        Kontakt
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        Ulubione
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        Moje konto
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        Koszyk
+                    </a>
+                </li>
             </ul>
         </section>
     </header>
@@ -146,7 +157,7 @@
         <section class="homeSlider container">
             <div class="homeSlider__photo">
                 <div class="homeSlider__shadow"></div>
-                <img src="./img/img_01.jpg" style="width:100%">
+                <img src="./img/img_01.jpg">
                 <div class="homeSlider__text">
                     <span class="homeSlider__heading">Poznaj SEDNA</span>
                     <span class="homeSlider__subheading">Schneider Electric</span>
@@ -159,7 +170,7 @@
 
             <div class="homeSlider__photo">
                 <div class="homeSlider__shadow"></div>
-                <img src="./img/img_08.png" style="width:100%">
+                <img src="./img/img_08.png">
                 <div class="homeSlider__text">
                     <span class="homeSlider__heading">Phillips HUE</span>
                     <span class="homeSlider__subheading">Oświetl swój dom</span>
@@ -206,13 +217,13 @@
                 <div class="productList__bottom-red"></div>
             </div>
 
-            <div class="productList__conrainer container">
+            <div class="productList__container container">
                 <div class="productList__box">
                     <div class="productList__arrows">
                         <div class="productList__arrow--left"><i class="icon-arrow_left"></i></div>
                         <div class="productList__arrow--right"><i class="icon-arrow_right"></i></div>
                     </div>
-                    <div class="productList__slaider">
+                    <div class="productList__slider">
 
                         <div class="productList__tile">
                             <div class="productList__bg"></div>
@@ -573,107 +584,155 @@
         </div>
     </footer>
     <footer class="footerMobile">
-        <div class="footerMobile__title container">
-            <p>informacje</p>
-            <ul class="footerMobile__list1 mobileList">
-                <a href="javascript:void(0)">
-                    <li class="mobileList__item">Informacje o sklepie</li>
-                </a>
-                <a href="javascript:void(0)">
-                    <li class="mobileList__item">Porady</li>
-                </a>
-                <a href="javascript:void(0)">
-                    <li class="mobileList__item">Blog</li>
-                </a>
-                <a href="javascript:void(0)">
-                    <li class="mobileList__item">Galeria inspiracji</li>
-                </a>
-                <a href="javascript:void(0)">
-                    <li class="mobileList__item">Kontakt</li>
-                </a>
-                <a href="javascript:void(0)">
-                    <li class="mobileList__item">Informacje o sklepie</li>
-                </a>
+        <div class="footerMobile__box container">
+            <p class="footerMobile__title1 footerMobile__title">informacje</p>
+            <ul class="footerMobile__list1 footerMobile__list">
+                <li class="list__item">
+                    <a href="javascript:void(0)">
+                        Informacje o sklepie
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="javascript:void(0)">
+                        Porady
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="javascript:void(0)">
+                        Blog
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="javascript:void(0)">
+                        Galeria inspiracji
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="javascript:void(0)">
+                        Kontakt
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="javascript:void(0)">
+                        Informacje
+                    </a>
+                </li>
             </ul>
         </div>
-        <div class="footerMobile__title container">
-            <p>moje konto</p>
-            <ul class="footerMobile__list2 mobileList">
-                <a href="javascript:void(0)">
-                    <li class="mobileList__item">Informacje o sklepie</li>
-                </a>
-                <a href="javascript:void(0)">
-                    <li class="mobileList__item">Porady</li>
-                </a>
-                <a href="javascript:void(0)">
-                    <li class="mobileList__item">Blog</li>
-                </a>
-                <a href="javascript:void(0)">
-                    <li class="mobileList__item">Galeria inspiracji</li>
-                </a>
-                <a href="javascript:void(0)">
-                    <li class="mobileList__item">Kontakt</li>
-                </a>
-                <a href="javascript:void(0)">
-                    <li class="mobileList__item">Informacje o sklepie</li>
-                </a>
+        <div class="footerMobile__box container">
+            <p class="footerMobile__title2 footerMobile__title">moje konto</p>
+            <ul class="footerMobile__list2 footerMobile__list">
+                <li class="list__item">
+                    <a href="javascript:void(0)">
+                        Informacje o sklepie
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="javascript:void(0)">
+                        Porady
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="javascript:void(0)">
+                        Blog
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="javascript:void(0)">
+                        Galeria inspiracji
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="javascript:void(0)">
+                        Kontakt
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="javascript:void(0)">
+                        Informacje
+                    </a>
+                </li>
             </ul>
         </div>
-        <div class="footerMobile__title container">
-            <p>informacje</p>
-            <ul class="footerMobile__list3 mobileList">
-                <a href="javascript:void(0)">
-                    <li class="mobileList__item">Informacje o sklepie</li>
-                </a>
-                <a href="javascript:void(0)">
-                    <li class="mobileList__item">Porady</li>
-                </a>
-                <a href="javascript:void(0)">
-                    <li class="mobileList__item">Blog</li>
-                </a>
-                <a href="javascript:void(0)">
-                    <li class="mobileList__item">Galeria inspiracji</li>
-                </a>
-                <a href="javascript:void(0)">
-                    <li class="mobileList__item">Kontakt</li>
-                </a>
-                <a href="javascript:void(0)">
-                    <li class="mobileList__item">Informacje o sklepie</li>
-                </a>
+        <div class="footerMobile__box container">
+            <p class=" footerMobile__title3 footerMobile__title">informacje</p>
+            <ul class="footerMobile__list3 footerMobile__list">
+                <li class="list__item">
+                    <a href="javascript:void(0)">
+                        Informacje o sklepie
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="javascript:void(0)">
+                        Porady
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="javascript:void(0)">
+                        Blog
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="javascript:void(0)">
+                        Galeria inspiracji
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="javascript:void(0)">
+                        Kontakt
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="javascript:void(0)">
+                        Informacje
+                    </a>
+                </li>
             </ul>
         </div>
-        <div class="footerMobile__title container">
-            <p>informacje</p>
-            <ul class="footerMobile__list4 mobileList">
-                <a href="javascript:void(0)">
-                    <li class="mobileList__item">Informacje o sklepie</li>
-                </a>
-                <a href="javascript:void(0)">
-                    <li class="mobileList__item">Porady</li>
-                </a>
-                <a href="javascript:void(0)">
-                    <li class="mobileList__item">Blog</li>
-                </a>
-                <a href="javascript:void(0)">
-                    <li class="mobileList__item">Galeria inspiracji</li>
-                </a>
-                <a href="javascript:void(0)">
-                    <li class="mobileList__item">Kontakt</li>
-                </a>
-                <a href="javascript:void(0)">
-                    <li class="mobileList__item">Informacje o sklepie</li>
-                </a>
+        <div class="footerMobile__box container">
+            <p class="footerMobile__title4 footerMobile__title">informacje</p>
+            <ul class="footerMobile__list4 footerMobile__list">
+                <li class="list__item">
+                    <a href="javascript:void(0)">
+                        Informacje o sklepie
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="javascript:void(0)">
+                        Porady
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="javascript:void(0)">
+                        Blog
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="javascript:void(0)">
+                        Galeria inspiracji
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="javascript:void(0)">
+                        Kontakt
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="javascript:void(0)">
+                        Informacje
+                    </a>
+                </li>
             </ul>
         </div>
     </footer>
-    <div class="footer__credits co"></div>
-    <div class="container">
-        <p class="footer__cops con">Copyright 2022. Wszystkie prawa zastrzeżone</p>
+    <div class="footer__credits">
+        <p class="footer__cops">Copyright 2022. Wszystkie prawa zastrzeżone</p>
         <p class="footer__agency">Agencja interaktywna [ti] Powered by 2ClickShop</p>
     </div>
     <script src="./js/homeSlider.js"></script>
     <script src="./js/hamburger.js"></script>
-    <script src="./js/productSlaider.js"></script>
+    <script src="./js/footerMobile.js"></script>
+    <script src="./js/productSlider.js"></script>
 </body>
 
 </html>

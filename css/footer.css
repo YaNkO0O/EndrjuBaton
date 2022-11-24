@@ -108,22 +108,15 @@
 }
 
 .footer__credits {
-  position: relative;
+  display: flex;
+  justify-content: space-between;
   width: 100%;
-  height: 5px;
-  color: white;
-}
-
-.footer__cops {
-  position: absolute;
+  height: 160px;
   font-family: "Metropolis";
-  font-size: 14px;
 }
 
 .footer__agency {
   text-align: right;
-  font-family: "Metropolis";
-  font-size: 14px;
 }
 
 /*# sourceMappingURL=footer.css.map */

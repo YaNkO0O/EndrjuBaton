@@ -1,7 +1,6 @@
 .productList {
 	width: 100%;
 	height: 100%;
-
 	.productList__headline {
 		position: relative;
 		width: 100%;
@@ -61,11 +60,14 @@
 				color: #fff;
 				z-index: 1;
 			}
-			.productList__slaider {
+			.productList__slider {
 				gap: 10px;
 				overflow-x: scroll;
 				display: grid;
-				grid-template-columns: repeat(10, calc((1800px - 40px) / 5)); //40px bo 4 x gap: 10; a /5 bo 5 kafelków na stronie
+				grid-template-columns: repeat(
+					10,
+					calc((1800px - 40px) / 5)
+				); //40px bo 4 x gap: 10; a /5 bo 5 kafelków na stronie
 				width: 100%;
 				height: 100%;
 				.productList__tile {

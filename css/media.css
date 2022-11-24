@@ -24,10 +24,10 @@
   .header .nav {
     display: none;
   }
-  main .productList .productList__conrainer .productList__box .productList__arrow--right {
+  main .productList .productList__container .productList__box .productList__arrow--right {
     display: none;
   }
-  main .productList .productList__conrainer .productList__box .productList__arrow--left {
+  main .productList .productList__container .productList__box .productList__arrow--left {
     display: none;
   }
 }
@@ -263,16 +263,19 @@
     width: 70px;
     height: 1px;
   }
-  main .productList .productList__conrainer .productList__box .productList__arrow--right {
+  main .productList .productList__container .productList__box .productList__slider {
+    overflow-x: hidden;
+  }
+  main .productList .productList__container .productList__box .productList__arrow--right {
     display: flex;
   }
-  main .productList .productList__conrainer .productList__box .productList__arrow--left {
+  main .productList .productList__container .productList__box .productList__arrow--left {
     display: flex;
   }
-  main .productList .productList__conrainer .productList__box .productList__arrows .productList__arrow--left {
+  main .productList .productList__container .productList__box .productList__arrows .productList__arrow--left {
     top: 36%;
   }
-  main .productList .productList__conrainer .productList__box .productList__arrows .productList__arrow--right {
+  main .productList .productList__container .productList__box .productList__arrows .productList__arrow--right {
     top: 36%;
   }
 }
@@ -316,10 +319,10 @@
     left: 8%;
     font-size: 20px;
   }
-  main .productList .productList__conrainer .productList__box .productList__arrows .productList__arrow--left {
+  main .productList .productList__container .productList__box .productList__arrows .productList__arrow--left {
     top: 36%;
   }
-  main .productList .productList__conrainer .productList__box .productList__arrows .productList__arrow--right {
+  main .productList .productList__container .productList__box .productList__arrows .productList__arrow--right {
     top: 36%;
   }
 }
@@ -413,10 +416,10 @@
     width: 70px;
     height: 1px;
   }
-  main .productList .productList__conrainer .productList__box .productList__arrows .productList__arrow--left {
+  main .productList .productList__container .productList__box .productList__arrows .productList__arrow--left {
     top: 36%;
   }
-  main .productList .productList__conrainer .productList__box .productList__arrows .productList__arrow--right {
+  main .productList .productList__container .productList__box .productList__arrows .productList__arrow--right {
     top: 36%;
   }
 }
@@ -463,10 +466,10 @@
     left: 8%;
     font-size: 27px;
   }
-  main .productList .productList__conrainer .productList__box .productList__arrows .productList__arrow--left {
+  main .productList .productList__container .productList__box .productList__arrows .productList__arrow--left {
     top: 36%;
   }
-  main .productList .productList__conrainer .productList__box .productList__arrows .productList__arrow--right {
+  main .productList .productList__container .productList__box .productList__arrows .productList__arrow--right {
     top: 36%;
   }
 }
@@ -588,18 +591,18 @@
     width: 70px;
     height: 1px;
   }
-  main .productList .productList__conrainer .productList__box .productList__arrows .productList__arrow--left {
+  main .productList .productList__container .productList__box .productList__arrows .productList__arrow--left {
     top: 36%;
   }
-  main .productList .productList__conrainer .productList__box .productList__arrows .productList__arrow--right {
+  main .productList .productList__container .productList__box .productList__arrows .productList__arrow--right {
     top: 36%;
   }
 }
 @media screen and (min-width: 1470px) {
-  .productList .productList__conrainer .productList__box .productList__arrows .productList__arrow--left {
+  .productList .productList__container .productList__box .productList__arrows .productList__arrow--left {
     top: 38%;
   }
-  .productList .productList__conrainer .productList__box .productList__arrows .productList__arrow--right {
+  .productList .productList__container .productList__box .productList__arrows .productList__arrow--right {
     top: 38%;
   }
 }

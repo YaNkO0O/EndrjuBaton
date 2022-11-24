@@ -22,12 +22,12 @@
   width: 70px;
   height: 1px;
 }
-.productList .productList__conrainer {
+.productList .productList__container {
   height: 100%;
   padding-top: 35px;
   width: 100%;
 }
-.productList .productList__conrainer .productList__box {
+.productList .productList__container .productList__box {
   column-gap: 1.5%;
   overflow: auto;
   display: flex;
@@ -37,7 +37,7 @@
   height: 100%;
   background-color: rebeccapurple;
 }
-.productList .productList__conrainer .productList__box .productList__tile {
+.productList .productList__container .productList__box .productList__tile {
   position: relative;
   display: flex;
   padding: auto;
@@ -49,14 +49,14 @@
   background-color: rgb(253, 0, 0);
   transition: 0.5s;
 }
-.productList .productList__conrainer .productList__box .productList__tile .productList__bg {
+.productList .productList__container .productList__box .productList__tile .productList__bg {
   display: flex;
   height: 50%;
   width: 200px;
   background-image: url("../img/img_06.jpg");
   background-position: center;
 }
-.productList .productList__conrainer .productList__box .productList__tile .productList__info {
+.productList .productList__container .productList__box .productList__tile .productList__info {
   position: relative;
   padding-top: 70px;
   line-height: 0.5;
@@ -66,31 +66,31 @@
   justify-content: center;
   transition: 0.5s;
 }
-.productList .productList__conrainer .productList__box .productList__tile .productList__info .bulb__headline {
+.productList .productList__container .productList__box .productList__tile .productList__info .bulb__headline {
   display: flex;
   width: 100%;
   font-size: 13px;
   color: #111111;
   font-family: "MetropolisB";
 }
-.productList .productList__conrainer .productList__box .productList__tile .productList__info .bulb__subheading {
+.productList .productList__container .productList__box .productList__tile .productList__info .bulb__subheading {
   display: flex;
   color: #111111;
   font-family: "Metropolis";
   font-size: 14px;
 }
-.productList .productList__conrainer .productList__box .productList__tile .productList__info .bulb__price--old {
+.productList .productList__container .productList__box .productList__tile .productList__info .bulb__price--old {
   display: flex;
   color: #a3a3a3;
   text-decoration: line-through;
   font-family: "Metropolis";
 }
-.productList .productList__conrainer .productList__box .productList__tile .productList__info .bulb__price--new {
+.productList .productList__container .productList__box .productList__tile .productList__info .bulb__price--new {
   display: flex;
   color: #111111;
   font-family: "MetropolisB";
 }
-.productList .productList__conrainer .productList__box .productList__tile .productList__basket {
+.productList .productList__container .productList__box .productList__tile .productList__basket {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -99,13 +99,13 @@
   width: 75px;
   height: 45px;
 }
-.productList .productList__conrainer .productList__box .productList__tile .productList__basket .basket__btn--plus {
+.productList .productList__container .productList__box .productList__tile .productList__basket .basket__btn--plus {
   display: flex;
   height: 100%;
   border: none;
   cursor: pointer;
 }
-.productList .productList__conrainer .productList__box .productList__tile .productList__basket .basket__btn--minus {
+.productList .productList__container .productList__box .productList__tile .productList__basket .basket__btn--minus {
   display: flex;
   height: 100%;
   border: none;

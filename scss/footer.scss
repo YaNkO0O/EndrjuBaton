@@ -1,6 +1,5 @@
 @use './variables' as color;
 .footer{
-    // max-width: 1920px;
     width: 100%;
     height: 450px;
     background-color:#393E40;
@@ -19,7 +18,6 @@
 	font-size: 14px;
 	font-family: "MetropolisB";
 	list-style-type: none;
-	// padding-left: 29px;
 }
 .list__item {
 	padding: 20px 0px;
@@ -95,19 +93,13 @@
 	border-bottom: 3px solid #F74137;
 	top: 7.6%;
 }
-.footer__credits {
-	position: relative;
+.footer__credits{
+	display: flex;
+	justify-content: space-between;
 	width: 100%;
-	height: 5px;
-	color: white;
+	height: 160px;
+	font-family: 'Metropolis';
 }
-.footer__cops {
-	position: absolute;
-	font-family: "Metropolis";
-	font-size: 14px;
-}
-.footer__agency {
+.footer__agency{
 	text-align: right;
-	font-family: "Metropolis";
-	font-size: 14px;
 }

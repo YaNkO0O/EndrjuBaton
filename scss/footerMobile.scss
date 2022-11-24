@@ -1,44 +1,44 @@
 @use "./variables" as color;
+
 .footerMobile {
 	max-width: 1920px;
-	margin-top: 20px;
 	flex-direction: column;
-	align-items: start;
 	justify-content: center;
 	width: 100%;
-	height: 600px;
+	height: 100%;
 	font-size: 10px;
 	background-color: #393e40;
-	.footerMobile__title {
+	.footerMobile__box {
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		flex-direction: column;
 		width: 100%;
-		height: 50%;
 		text-transform: uppercase;
 		color: #fff;
 		font-family: "MetropolisB";
 		border-bottom: color.$border;
-		// .footerMobile__list1 {
-		// }
-		// .footerMobile__list2 {
-		// }
-		// .footerMobile__list3 {
-		// }
-		// .footerMobile__list4 {
-		// }
-		.mobileList {
-			display: flex;
-			flex-direction: column;
+		.footerMobile__title {
+			font-size: 14px;
+			cursor: pointer;
+		}
+		.footerMobile__list {
+			display: none;
+			font-size: 10px;
 			list-style-type: none;
+			height: 100%;
+			padding: 0;
 			a {
 				text-decoration: none;
 				color: #fff;
 			}
-			.mobileList__item {
-				display: flex;
-				padding: 5px 0;
+			.list__item {
+				font-family: "MetropolisB";
+				padding: 8px 0;
 			}
 		}
 	}
+}
+.showingList {
+	display: block;
 }

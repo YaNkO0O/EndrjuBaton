@@ -26,16 +26,16 @@
   font-weight: bold;
   border-bottom: 1px solid #E1E2E8;
 }
-.hamburger a {
-  text-decoration: none;
-  color: #000;
-}
-.hamburger a li {
+.hamburger li {
   display: flex;
   align-items: center;
   text-transform: uppercase;
   padding: 25px;
   border-bottom: 1px solid #E1E2E8;
+}
+.hamburger li a {
+  text-decoration: none;
+  color: #000;
 }
 .hamburger ul {
   width: 70%;

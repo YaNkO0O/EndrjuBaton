@@ -15,7 +15,6 @@
 			display: none;
 		}
 	}
-	
 
 	.top {
 		display: none;
@@ -26,6 +25,20 @@
 			display: none;
 		}
 		
+	}
+	main {
+		.productList {
+			.productList__conrainer {
+				.productList__box {
+					.productList__arrow--right {
+						display: none;
+					}
+					.productList__arrow--left {
+						display: none;
+					}
+				}
+			}
+		}
 	}
 }
 @media screen and (min-width: 430px) {
@@ -183,17 +196,6 @@
 				}
 			}
 		}
-		.whyUs__headerText{
-			font-size: 17px;
-			padding: 0px 0 0 0;
-		}
-		.whyUs__header{
-			padding: 0px 0 1px 0;
-		}
-		.whyUs__headline{
-			height: 108px;
-			padding: 0px 0 1px 0;
-		}
 	}
 }
 @media screen and (min-width: 768px) {
@@ -313,19 +315,6 @@
 				}
 			}
 		}
-		.whyUs__headerText{
-			font-size: 20px;
-			padding: 1px 0 1px 0;
-		}
-
-		.whyUs__header{
-			padding: 0 0 1px 0;
-		}
-
-		.whyUs__headline{
-			height: 50px;
-			padding: 0 0 1px 0;
-		}
 	}
 }
 @media screen and (min-width: 850px) {
@@ -380,19 +369,6 @@
 					font-size: 20px;
 				}
 			}
-		}
-		.whyUs__headerText{
-			font-size: 21px;
-			padding: 1px 0 1px 0;
-		}
-
-		.whyUs__header{
-			padding: 0 0 1px 0;
-		}
-
-		.whyUs__headline{
-			height: 60px;
-			padding: 0 0 1px 0;
 		}
 	}
 }
@@ -498,19 +474,6 @@
 				width: 40px;
 			}
 		}
-		.whyUs__headerText{
-			font-size: 25px;
-			padding: 0 0 1px 0;
-		}
-
-		.whyUs__header{
-			padding: 0 0 1px 0;
-		}
-
-		.whyUs__headline{
-			height: 100px;
-			padding: 0 0 1px 0;
-		}
 	}
 }
 @media screen and (min-width: 1150px) {
@@ -565,18 +528,6 @@
 					font-size: 27px;
 				}
 			}
-		}
-		.whyUs__header{
-			padding: 0 0 1px 0;
-		}
-		.whyUs__headerText{
-			font-size: 30px;
-			padding: 10px 0 0 0;
-
-		}
-		.whyUs__headline{
-			height: 80px;
-			padding: 0 0 90px 0;
 		}
 	}
 }
@@ -708,19 +659,6 @@
 				width: 60px;
 			}
 		}
-		.whyUs__header{
-			padding: 0 0 1px 0;
-
-		}
-		
-		.whyUs__headerText{
-			font-size: 38px;
-			padding: 1px 0 1px 0;
-		}
-		.whyUs__headline{
-			height: 300px;
-			padding: 0 0 1px 0;
-		}
 	}
 }
 @media screen and (min-width: 1470px) {
@@ -731,11 +669,6 @@
 	// 		}
 	// 	}
 	// }
-	.whyUs__text{
-		// font-size: 18px;
-		line-height: 125%;
-		font-family: Metropolis;
-	}
 }
 @media screen and (min-width: 1700px) {
 	.header {
@@ -814,22 +747,5 @@
 				}
 			}
 		}
-		.whyUs__text{
-			font-size: 22px;
-			line-height: 120%;
-			left: 17%;
-			max-width: 1200px;
-		}
-		.whyUs__headerText{
-			font-size: 42px;
-			padding: 15px 0 0 0;
-		}
-		.whyUs__header{
-			padding: 0 0 -50px 0;
-		}
-	}
-	.whyUs__headline{
-		height: 300px;
-		padding: 0 0 1px 0;
 	}
 }
